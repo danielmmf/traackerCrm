@@ -9,6 +9,7 @@ import 'edit_profile_widget.dart' show EditProfileWidget;
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
@@ -16,6 +17,7 @@ class EditProfileModel extends FlutterFlowModel<EditProfileWidget> {
   ///  State fields for stateful widgets in this page.
 
   // State field(s) for yourName widget.
+  FocusNode? yourNameFocusNode;
   TextEditingController? yourNameController;
   String? Function(BuildContext, String?)? yourNameControllerValidator;
 
@@ -24,6 +26,7 @@ class EditProfileModel extends FlutterFlowModel<EditProfileWidget> {
   void initState(BuildContext context) {}
 
   void dispose() {
+    yourNameFocusNode?.dispose();
     yourNameController?.dispose();
   }
 

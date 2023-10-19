@@ -7,6 +7,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:text_search/text_search.dart';
@@ -32,6 +33,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
 
     logFirebaseEvent('screen_view', parameters: {'screen_name': 'searchPage'});
     _model.textController ??= TextEditingController();
+
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
@@ -44,6 +46,15 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
 
   @override
   Widget build(BuildContext context) {
+    if (isiOS) {
+      SystemChrome.setSystemUIOverlayStyle(
+        SystemUiOverlayStyle(
+          statusBarBrightness: Theme.of(context).brightness,
+          systemStatusBarContrastEnforced: true,
+        ),
+      );
+    }
+
     return StreamBuilder<List<UsersRecord>>(
       stream: queryUsersRecord(),
       builder: (context, snapshot) {
@@ -189,6 +200,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                                   focusNode,
                                   onEditingComplete,
                                 ) {
+                                  _model.textFieldFocusNode = focusNode;
                                   _model.textController = textEditingController;
                                   return TextFormField(
                                     key: _model.textFieldKey,

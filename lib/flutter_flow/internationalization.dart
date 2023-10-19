@@ -909,7 +909,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'o4z6h2al': {
       'en': 'Send Contract Confirmation',
       'es': 'Enviar confirmación de contrato',
-      'pt': 'Enviar confirmação do contrato',
+      'pt': 'Enviar confirmação de contrato',
     },
     'wb1i7hws': {
       'en': 'A new contract has been generated for:',

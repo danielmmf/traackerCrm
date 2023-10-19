@@ -7,6 +7,7 @@ import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:octo_image/octo_image.dart';
@@ -67,7 +68,9 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
     _model = createModel(context, () => ModalCreateProjectModel());
 
     _model.projectNameController ??= TextEditingController();
+    _model.projectNameFocusNode ??= FocusNode();
     _model.descriptionController ??= TextEditingController();
+    _model.descriptionFocusNode ??= FocusNode();
     setupAnimations(
       animationsMap.values.where((anim) =>
           anim.trigger == AnimationTrigger.onActionTrigger ||
@@ -279,6 +282,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                 0.0, 8.0, 0.0, 0.0),
                             child: TextFormField(
                               controller: _model.projectNameController,
+                              focusNode: _model.projectNameFocusNode,
                               autofocus: true,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -348,6 +352,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                 0.0, 12.0, 0.0, 12.0),
                             child: TextFormField(
                               controller: _model.descriptionController,
+                              focusNode: _model.descriptionFocusNode,
                               autofocus: true,
                               obscureText: false,
                               decoration: InputDecoration(

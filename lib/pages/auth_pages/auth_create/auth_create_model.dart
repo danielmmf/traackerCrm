@@ -8,6 +8,7 @@ import 'auth_create_widget.dart' show AuthCreateWidget;
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -20,13 +21,16 @@ class AuthCreateModel extends FlutterFlowModel<AuthCreateWidget> {
   // Model for main_Logo_Small component.
   late MainLogoSmallModel mainLogoSmallModel;
   // State field(s) for emailAddress widget.
+  FocusNode? emailAddressFocusNode;
   TextEditingController? emailAddressController;
   String? Function(BuildContext, String?)? emailAddressControllerValidator;
   // State field(s) for password widget.
+  FocusNode? passwordFocusNode;
   TextEditingController? passwordController;
   late bool passwordVisibility;
   String? Function(BuildContext, String?)? passwordControllerValidator;
   // State field(s) for passwordConfirm widget.
+  FocusNode? passwordConfirmFocusNode;
   TextEditingController? passwordConfirmController;
   late bool passwordConfirmVisibility;
   String? Function(BuildContext, String?)? passwordConfirmControllerValidator;
@@ -42,8 +46,13 @@ class AuthCreateModel extends FlutterFlowModel<AuthCreateWidget> {
   void dispose() {
     unfocusNode.dispose();
     mainLogoSmallModel.dispose();
+    emailAddressFocusNode?.dispose();
     emailAddressController?.dispose();
+
+    passwordFocusNode?.dispose();
     passwordController?.dispose();
+
+    passwordConfirmFocusNode?.dispose();
     passwordConfirmController?.dispose();
   }
 

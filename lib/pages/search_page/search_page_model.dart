@@ -8,6 +8,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'search_page_widget.dart' show SearchPageWidget;
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:text_search/text_search.dart';
@@ -18,6 +19,7 @@ class SearchPageModel extends FlutterFlowModel<SearchPageWidget> {
   final unfocusNode = FocusNode();
   // State field(s) for TextField widget.
   final textFieldKey = GlobalKey();
+  FocusNode? textFieldFocusNode;
   TextEditingController? textController;
   String? textFieldSelectedOption;
   String? Function(BuildContext, String?)? textControllerValidator;
@@ -29,6 +31,7 @@ class SearchPageModel extends FlutterFlowModel<SearchPageWidget> {
 
   void dispose() {
     unfocusNode.dispose();
+    textFieldFocusNode?.dispose();
   }
 
   /// Action blocks are added here.

@@ -10,6 +10,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -62,7 +63,9 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
     _model = createModel(context, () => ModalProfileEditModel());
 
     _model.yourNameController1 ??= TextEditingController();
+    _model.yourNameFocusNode1 ??= FocusNode();
     _model.yourNameController2 ??= TextEditingController();
+    _model.yourNameFocusNode2 ??= FocusNode();
     setupAnimations(
       animationsMap.values.where((anim) =>
           anim.trigger == AnimationTrigger.onActionTrigger ||
@@ -219,6 +222,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                             16.0, 16.0, 16.0, 0.0),
                         child: TextFormField(
                           controller: _model.yourNameController1,
+                          focusNode: _model.yourNameFocusNode1,
                           obscureText: false,
                           decoration: InputDecoration(
                             labelText: FFLocalizations.of(context).getText(
@@ -272,6 +276,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                             16.0, 16.0, 16.0, 0.0),
                         child: TextFormField(
                           controller: _model.yourNameController2,
+                          focusNode: _model.yourNameFocusNode2,
                           obscureText: false,
                           decoration: InputDecoration(
                             labelText: FFLocalizations.of(context).getText(

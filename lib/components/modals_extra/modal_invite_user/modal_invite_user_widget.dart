@@ -6,6 +6,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -58,7 +59,9 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
     _model = createModel(context, () => ModalInviteUserModel());
 
     _model.yourNameController ??= TextEditingController();
+    _model.yourNameFocusNode ??= FocusNode();
     _model.cityController ??= TextEditingController();
+    _model.cityFocusNode ??= FocusNode();
     setupAnimations(
       animationsMap.values.where((anim) =>
           anim.trigger == AnimationTrigger.onActionTrigger ||
@@ -210,6 +213,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                               0.0, 16.0, 0.0, 0.0),
                           child: TextFormField(
                             controller: _model.yourNameController,
+                            focusNode: _model.yourNameFocusNode,
                             autofocus: true,
                             obscureText: false,
                             decoration: InputDecoration(
@@ -265,6 +269,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                               0.0, 16.0, 0.0, 0.0),
                           child: TextFormField(
                             controller: _model.cityController,
+                            focusNode: _model.cityFocusNode,
                             autofocus: true,
                             obscureText: false,
                             decoration: InputDecoration(

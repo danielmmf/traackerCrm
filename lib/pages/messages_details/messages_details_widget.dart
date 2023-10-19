@@ -4,6 +4,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'messages_details_model.dart';
@@ -29,6 +30,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
     logFirebaseEvent('screen_view',
         parameters: {'screen_name': 'messagesDetails'});
     _model.textController ??= TextEditingController();
+    _model.textFieldFocusNode ??= FocusNode();
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
@@ -41,6 +43,15 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
 
   @override
   Widget build(BuildContext context) {
+    if (isiOS) {
+      SystemChrome.setSystemUIOverlayStyle(
+        SystemUiOverlayStyle(
+          statusBarBrightness: Theme.of(context).brightness,
+          systemStatusBarContrastEnforced: true,
+        ),
+      );
+    }
+
     return GestureDetector(
       onTap: () => _model.unfocusNode.canRequestFocus
           ? FocusScope.of(context).requestFocus(_model.unfocusNode)
@@ -674,6 +685,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                 8.0, 0.0, 8.0, 0.0),
                             child: TextFormField(
                               controller: _model.textController,
+                              focusNode: _model.textFieldFocusNode,
                               autofocus: true,
                               textCapitalization: TextCapitalization.sentences,
                               obscureText: false,

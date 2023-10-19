@@ -7,6 +7,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -278,8 +279,11 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
 
     logFirebaseEvent('screen_view', parameters: {'screen_name': 'auth_Create'});
     _model.emailAddressController ??= TextEditingController();
+    _model.emailAddressFocusNode ??= FocusNode();
     _model.passwordController ??= TextEditingController();
+    _model.passwordFocusNode ??= FocusNode();
     _model.passwordConfirmController ??= TextEditingController();
+    _model.passwordConfirmFocusNode ??= FocusNode();
     setupAnimations(
       animationsMap.values.where((anim) =>
           anim.trigger == AnimationTrigger.onActionTrigger ||
@@ -299,6 +303,15 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
 
   @override
   Widget build(BuildContext context) {
+    if (isiOS) {
+      SystemChrome.setSystemUIOverlayStyle(
+        SystemUiOverlayStyle(
+          statusBarBrightness: Theme.of(context).brightness,
+          systemStatusBarContrastEnforced: true,
+        ),
+      );
+    }
+
     return GestureDetector(
       onTap: () => _model.unfocusNode.canRequestFocus
           ? FocusScope.of(context).requestFocus(_model.unfocusNode)
@@ -383,6 +396,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                     0.0, 16.0, 0.0, 0.0),
                                 child: TextFormField(
                                   controller: _model.emailAddressController,
+                                  focusNode: _model.emailAddressFocusNode,
                                   autofocus: true,
                                   obscureText: false,
                                   decoration: InputDecoration(
@@ -460,6 +474,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                     0.0, 16.0, 0.0, 0.0),
                                 child: TextFormField(
                                   controller: _model.passwordController,
+                                  focusNode: _model.passwordFocusNode,
                                   autofocus: true,
                                   autofillHints: [AutofillHints.password],
                                   obscureText: !_model.passwordVisibility,
@@ -549,6 +564,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                 0.0, 16.0, 0.0, 0.0),
                             child: TextFormField(
                               controller: _model.passwordConfirmController,
+                              focusNode: _model.passwordConfirmFocusNode,
                               autofocus: true,
                               autofillHints: [AutofillHints.password],
                               obscureText: !_model.passwordConfirmVisibility,

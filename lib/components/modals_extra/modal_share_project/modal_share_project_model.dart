@@ -6,6 +6,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'modal_share_project_widget.dart' show ModalShareProjectWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -22,6 +23,7 @@ class ModalShareProjectModel extends FlutterFlowModel<ModalShareProjectWidget> {
   // State field(s) for MouseRegion widget.
   bool mouseRegionHovered = false;
   // State field(s) for yourName widget.
+  FocusNode? yourNameFocusNode;
   TextEditingController? yourNameController;
   String? Function(BuildContext, String?)? yourNameControllerValidator;
 
@@ -30,6 +32,7 @@ class ModalShareProjectModel extends FlutterFlowModel<ModalShareProjectWidget> {
   void initState(BuildContext context) {}
 
   void dispose() {
+    yourNameFocusNode?.dispose();
     yourNameController?.dispose();
   }
 

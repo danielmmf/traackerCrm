@@ -8,6 +8,7 @@ import 'modal_create_project_widget.dart' show ModalCreateProjectWidget;
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:octo_image/octo_image.dart';
@@ -19,6 +20,7 @@ class ModalCreateProjectModel
 
   final formKey = GlobalKey<FormState>();
   // State field(s) for projectName widget.
+  FocusNode? projectNameFocusNode;
   TextEditingController? projectNameController;
   String? Function(BuildContext, String?)? projectNameControllerValidator;
   String? _projectNameControllerValidator(BuildContext context, String? val) {
@@ -32,6 +34,7 @@ class ModalCreateProjectModel
   }
 
   // State field(s) for description widget.
+  FocusNode? descriptionFocusNode;
   TextEditingController? descriptionController;
   String? Function(BuildContext, String?)? descriptionControllerValidator;
   String? _descriptionControllerValidator(BuildContext context, String? val) {
@@ -52,7 +55,10 @@ class ModalCreateProjectModel
   }
 
   void dispose() {
+    projectNameFocusNode?.dispose();
     projectNameController?.dispose();
+
+    descriptionFocusNode?.dispose();
     descriptionController?.dispose();
   }
 

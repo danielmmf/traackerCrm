@@ -8,6 +8,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'edit_profile_model.dart';
@@ -33,6 +34,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
     logFirebaseEvent('screen_view', parameters: {'screen_name': 'editProfile'});
     _model.yourNameController ??=
         TextEditingController(text: currentUserDisplayName);
+    _model.yourNameFocusNode ??= FocusNode();
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
@@ -45,6 +47,15 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
 
   @override
   Widget build(BuildContext context) {
+    if (isiOS) {
+      SystemChrome.setSystemUIOverlayStyle(
+        SystemUiOverlayStyle(
+          statusBarBrightness: Theme.of(context).brightness,
+          systemStatusBarContrastEnforced: true,
+        ),
+      );
+    }
+
     return Scaffold(
       key: scaffoldKey,
       backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
@@ -195,6 +206,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                   child: AuthUserStreamWidget(
                     builder: (context) => TextFormField(
                       controller: _model.yourNameController,
+                      focusNode: _model.yourNameFocusNode,
                       autofocus: true,
                       obscureText: false,
                       decoration: InputDecoration(

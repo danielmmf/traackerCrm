@@ -7,6 +7,7 @@ import '/flutter_flow/form_field_controller.dart';
 import 'modal_invite_user_widget.dart' show ModalInviteUserWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -15,9 +16,11 @@ class ModalInviteUserModel extends FlutterFlowModel<ModalInviteUserWidget> {
   ///  State fields for stateful widgets in this component.
 
   // State field(s) for yourName widget.
+  FocusNode? yourNameFocusNode;
   TextEditingController? yourNameController;
   String? Function(BuildContext, String?)? yourNameControllerValidator;
   // State field(s) for city widget.
+  FocusNode? cityFocusNode;
   TextEditingController? cityController;
   String? Function(BuildContext, String?)? cityControllerValidator;
   // State field(s) for DropDown widget.
@@ -29,7 +32,10 @@ class ModalInviteUserModel extends FlutterFlowModel<ModalInviteUserWidget> {
   void initState(BuildContext context) {}
 
   void dispose() {
+    yourNameFocusNode?.dispose();
     yourNameController?.dispose();
+
+    cityFocusNode?.dispose();
     cityController?.dispose();
   }
 

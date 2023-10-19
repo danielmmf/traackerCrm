@@ -2,6 +2,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'create_comment_model.dart';
@@ -29,6 +30,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
     _model = createModel(context, () => CreateCommentModel());
 
     _model.shortBioController ??= TextEditingController();
+    _model.shortBioFocusNode ??= FocusNode();
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
@@ -148,6 +150,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                               16.0, 16.0, 16.0, 0.0),
                           child: TextFormField(
                             controller: _model.shortBioController,
+                            focusNode: _model.shortBioFocusNode,
                             obscureText: false,
                             decoration: InputDecoration(
                               hintText: FFLocalizations.of(context).getText(

@@ -8,6 +8,7 @@ import '/flutter_flow/upload_data.dart';
 import 'modal_create_company_widget.dart' show ModalCreateCompanyWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -25,12 +26,15 @@ class ModalCreateCompanyModel
   List<String> uploadedFileUrls = [];
 
   // State field(s) for yourName widget.
+  FocusNode? yourNameFocusNode;
   TextEditingController? yourNameController;
   String? Function(BuildContext, String?)? yourNameControllerValidator;
   // State field(s) for city widget.
+  FocusNode? cityFocusNode;
   TextEditingController? cityController;
   String? Function(BuildContext, String?)? cityControllerValidator;
   // State field(s) for myBio widget.
+  FocusNode? myBioFocusNode;
   TextEditingController? myBioController;
   String? Function(BuildContext, String?)? myBioControllerValidator;
 
@@ -39,8 +43,13 @@ class ModalCreateCompanyModel
   void initState(BuildContext context) {}
 
   void dispose() {
+    yourNameFocusNode?.dispose();
     yourNameController?.dispose();
+
+    cityFocusNode?.dispose();
     cityController?.dispose();
+
+    myBioFocusNode?.dispose();
     myBioController?.dispose();
   }
 

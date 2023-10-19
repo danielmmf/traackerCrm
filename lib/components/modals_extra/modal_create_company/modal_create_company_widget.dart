@@ -7,6 +7,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/upload_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -60,8 +61,11 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
     _model = createModel(context, () => ModalCreateCompanyModel());
 
     _model.yourNameController ??= TextEditingController();
+    _model.yourNameFocusNode ??= FocusNode();
     _model.cityController ??= TextEditingController();
+    _model.cityFocusNode ??= FocusNode();
     _model.myBioController ??= TextEditingController();
+    _model.myBioFocusNode ??= FocusNode();
     setupAnimations(
       animationsMap.values.where((anim) =>
           anim.trigger == AnimationTrigger.onActionTrigger ||
@@ -299,6 +303,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                               24.0, 16.0, 24.0, 0.0),
                           child: TextFormField(
                             controller: _model.yourNameController,
+                            focusNode: _model.yourNameFocusNode,
                             autofocus: true,
                             obscureText: false,
                             decoration: InputDecoration(
@@ -354,6 +359,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                               24.0, 16.0, 24.0, 0.0),
                           child: TextFormField(
                             controller: _model.cityController,
+                            focusNode: _model.cityFocusNode,
                             autofocus: true,
                             obscureText: false,
                             decoration: InputDecoration(
@@ -409,6 +415,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                               24.0, 16.0, 24.0, 32.0),
                           child: TextFormField(
                             controller: _model.myBioController,
+                            focusNode: _model.myBioFocusNode,
                             autofocus: true,
                             obscureText: false,
                             decoration: InputDecoration(

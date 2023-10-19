@@ -6,6 +6,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'modal_add_users_list_widget.dart' show ModalAddUsersListWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -14,6 +15,7 @@ class ModalAddUsersListModel extends FlutterFlowModel<ModalAddUsersListWidget> {
   ///  State fields for stateful widgets in this component.
 
   // State field(s) for yourName widget.
+  FocusNode? yourNameFocusNode;
   TextEditingController? yourNameController;
   String? Function(BuildContext, String?)? yourNameControllerValidator;
 
@@ -22,6 +24,7 @@ class ModalAddUsersListModel extends FlutterFlowModel<ModalAddUsersListWidget> {
   void initState(BuildContext context) {}
 
   void dispose() {
+    yourNameFocusNode?.dispose();
     yourNameController?.dispose();
   }
 

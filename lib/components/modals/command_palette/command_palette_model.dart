@@ -8,6 +8,7 @@ import 'dart:ui';
 import 'command_palette_widget.dart' show CommandPaletteWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -16,6 +17,7 @@ class CommandPaletteModel extends FlutterFlowModel<CommandPaletteWidget> {
   ///  State fields for stateful widgets in this component.
 
   // State field(s) for TextField widget.
+  FocusNode? textFieldFocusNode;
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
 
@@ -24,6 +26,7 @@ class CommandPaletteModel extends FlutterFlowModel<CommandPaletteWidget> {
   void initState(BuildContext context) {}
 
   void dispose() {
+    textFieldFocusNode?.dispose();
     textController?.dispose();
   }
 

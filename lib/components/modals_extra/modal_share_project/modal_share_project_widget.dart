@@ -5,6 +5,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -58,6 +59,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
     _model = createModel(context, () => ModalShareProjectModel());
 
     _model.yourNameController ??= TextEditingController();
+    _model.yourNameFocusNode ??= FocusNode();
     setupAnimations(
       animationsMap.values.where((anim) =>
           anim.trigger == AnimationTrigger.onActionTrigger ||
@@ -613,6 +615,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                     width: 300.0,
                                     child: TextFormField(
                                       controller: _model.yourNameController,
+                                      focusNode: _model.yourNameFocusNode,
                                       autofocus: true,
                                       obscureText: false,
                                       decoration: InputDecoration(
