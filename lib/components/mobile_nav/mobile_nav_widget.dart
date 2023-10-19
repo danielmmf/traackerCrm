@@ -165,7 +165,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                   logFirebaseEvent('MOBILE_NAV_COMP_Column_5root8xc_ON_TAP');
 
                   context.pushNamed(
-                    'Main_customerList',
+                    'Main_Contracts',
                     extra: <String, dynamic>{
                       kTransitionInfoKey: TransitionInfo(
                         hasTransition: true,

@@ -110,13 +110,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   : MainHomeWidget(),
             ),
             FFRoute(
-              name: 'Main_customerList',
-              path: 'mainCustomerList',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'Main_customerList')
-                  : MainCustomerListWidget(),
-            ),
-            FFRoute(
               name: 'Main_Contracts',
               path: 'mainContracts',
               builder: (context, params) => params.isEmpty

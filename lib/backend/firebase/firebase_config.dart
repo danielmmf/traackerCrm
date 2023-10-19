@@ -5,12 +5,13 @@ Future initFirebase() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyBYCs0NxII3E-8kHmh5inFRTL14RViWxys",
-            authDomain: "dashboardapps-57b1c.firebaseapp.com",
-            projectId: "dashboardapps-57b1c",
-            storageBucket: "dashboardapps-57b1c.appspot.com",
-            messagingSenderId: "813406409653",
-            appId: "1:813406409653:web:964d59810ad8959fe4bffc"));
+            apiKey: "AIzaSyDMv-Pwi1movMBAvo1-tZsjP3WdZD5KdNM",
+            authDomain: "car-tracker-br.firebaseapp.com",
+            projectId: "car-tracker-br",
+            storageBucket: "car-tracker-br.appspot.com",
+            messagingSenderId: "899208646112",
+            appId: "1:899208646112:web:93bf1a023be152b782ef85",
+            measurementId: "G-VKVDR9BZ1N"));
   } else {
     await Firebase.initializeApp();
   }

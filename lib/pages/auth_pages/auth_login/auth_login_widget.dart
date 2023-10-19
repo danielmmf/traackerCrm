@@ -4,11 +4,9 @@ import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'auth_login_model.dart';
@@ -196,80 +194,6 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
       ],
     ),
     'rowOnPageLoadAnimation3': AnimationInfo(
-      trigger: AnimationTrigger.onPageLoad,
-      effects: [
-        VisibilityEffect(duration: 300.ms),
-        FadeEffect(
-          curve: Curves.easeInOut,
-          delay: 300.ms,
-          duration: 600.ms,
-          begin: 0.0,
-          end: 1.0,
-        ),
-        MoveEffect(
-          curve: Curves.easeInOut,
-          delay: 300.ms,
-          duration: 600.ms,
-          begin: Offset(0.0, 40.0),
-          end: Offset(0.0, 0.0),
-        ),
-      ],
-    ),
-    'containerOnPageLoadAnimation1': AnimationInfo(
-      trigger: AnimationTrigger.onPageLoad,
-      effects: [
-        VisibilityEffect(duration: 700.ms),
-        FadeEffect(
-          curve: Curves.bounceOut,
-          delay: 700.ms,
-          duration: 600.ms,
-          begin: 0.0,
-          end: 1.0,
-        ),
-        MoveEffect(
-          curve: Curves.bounceOut,
-          delay: 700.ms,
-          duration: 600.ms,
-          begin: Offset(0.0, 30.0),
-          end: Offset(0.0, 0.0),
-        ),
-        ScaleEffect(
-          curve: Curves.bounceOut,
-          delay: 700.ms,
-          duration: 600.ms,
-          begin: Offset(0.4, 0.4),
-          end: Offset(1.0, 1.0),
-        ),
-      ],
-    ),
-    'containerOnPageLoadAnimation2': AnimationInfo(
-      trigger: AnimationTrigger.onPageLoad,
-      effects: [
-        VisibilityEffect(duration: 900.ms),
-        FadeEffect(
-          curve: Curves.bounceOut,
-          delay: 900.ms,
-          duration: 600.ms,
-          begin: 0.0,
-          end: 1.0,
-        ),
-        MoveEffect(
-          curve: Curves.bounceOut,
-          delay: 900.ms,
-          duration: 600.ms,
-          begin: Offset(0.0, 30.0),
-          end: Offset(0.0, 0.0),
-        ),
-        ScaleEffect(
-          curve: Curves.bounceOut,
-          delay: 900.ms,
-          duration: 600.ms,
-          begin: Offset(0.4, 0.4),
-          end: Offset(1.0, 1.0),
-        ),
-      ],
-    ),
-    'rowOnPageLoadAnimation4': AnimationInfo(
       trigger: AnimationTrigger.onPageLoad,
       effects: [
         VisibilityEffect(duration: 1000.ms),
@@ -675,127 +599,6 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 24.0, 0.0, 0.0),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  AutoSizeText(
-                                    FFLocalizations.of(context).getText(
-                                      'zy328lg7' /* Use a social platform to conti... */,
-                                    ),
-                                    textAlign: TextAlign.center,
-                                    style: FlutterFlowTheme.of(context)
-                                        .labelMedium,
-                                  ),
-                                ],
-                              ).animateOnPageLoad(
-                                  animationsMap['rowOnPageLoadAnimation3']!),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  8.0, 8.0, 8.0, 8.0),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
-                                    child: InkWell(
-                                      splashColor: Colors.transparent,
-                                      focusColor: Colors.transparent,
-                                      hoverColor: Colors.transparent,
-                                      highlightColor: Colors.transparent,
-                                      onTap: () async {
-                                        logFirebaseEvent(
-                                            'AUTH_LOGIN_Container_fxshfyvv_ON_TAP');
-                                        GoRouter.of(context).prepareAuthEvent();
-                                        final user = await authManager
-                                            .signInWithGoogle(context);
-                                        if (user == null) {
-                                          return;
-                                        }
-
-                                        context.goNamedAuth(
-                                            'Main_Home', context.mounted);
-                                      },
-                                      child: Container(
-                                        width: 50.0,
-                                        height: 50.0,
-                                        decoration: BoxDecoration(
-                                          color: FlutterFlowTheme.of(context)
-                                              .accent1,
-                                          shape: BoxShape.circle,
-                                          border: Border.all(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primary,
-                                            width: 2.0,
-                                          ),
-                                        ),
-                                        alignment:
-                                            AlignmentDirectional(0.00, 0.00),
-                                        child: FaIcon(
-                                          FontAwesomeIcons.google,
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryText,
-                                          size: 24.0,
-                                        ),
-                                      ),
-                                    ).animateOnPageLoad(animationsMap[
-                                        'containerOnPageLoadAnimation1']!),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
-                                    child: InkWell(
-                                      splashColor: Colors.transparent,
-                                      focusColor: Colors.transparent,
-                                      hoverColor: Colors.transparent,
-                                      highlightColor: Colors.transparent,
-                                      onTap: () async {
-                                        logFirebaseEvent(
-                                            'AUTH_LOGIN_Container_peswewg7_ON_TAP');
-                                        GoRouter.of(context).prepareAuthEvent();
-                                        final user = await authManager
-                                            .signInWithApple(context);
-                                        if (user == null) {
-                                          return;
-                                        }
-
-                                        context.goNamedAuth(
-                                            'Main_Home', context.mounted);
-                                      },
-                                      child: Container(
-                                        width: 50.0,
-                                        height: 50.0,
-                                        decoration: BoxDecoration(
-                                          color: FlutterFlowTheme.of(context)
-                                              .accent1,
-                                          shape: BoxShape.circle,
-                                          border: Border.all(
-                                            color: FlutterFlowTheme.of(context)
-                                                .primary,
-                                            width: 2.0,
-                                          ),
-                                        ),
-                                        alignment:
-                                            AlignmentDirectional(0.00, 0.00),
-                                        child: FaIcon(
-                                          FontAwesomeIcons.apple,
-                                          color: FlutterFlowTheme.of(context)
-                                              .primaryText,
-                                          size: 24.0,
-                                        ),
-                                      ),
-                                    ).animateOnPageLoad(animationsMap[
-                                        'containerOnPageLoadAnimation2']!),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 24.0, 0.0, 24.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -852,7 +655,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                   ),
                                 ],
                               ).animateOnPageLoad(
-                                  animationsMap['rowOnPageLoadAnimation4']!),
+                                  animationsMap['rowOnPageLoadAnimation3']!),
                             ),
                           ],
                         ),

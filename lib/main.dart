@@ -137,7 +137,6 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'Main_Home': MainHomeWidget(),
-      'Main_customerList': MainCustomerListWidget(),
       'Main_Contracts': MainContractsWidget(),
       'Main_messages': MainMessagesWidget(),
       'Main_profilePage': MainProfilePageWidget(),
@@ -176,20 +175,6 @@ class _NavBarPageState extends State<NavBarPage> {
               ),
               label: FFLocalizations.of(context).getText(
                 'xdxbdj20' /* __ */,
-              ),
-              tooltip: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.supervised_user_circle_outlined,
-                size: 24.0,
-              ),
-              activeIcon: Icon(
-                Icons.supervised_user_circle_sharp,
-                size: 32.0,
-              ),
-              label: FFLocalizations.of(context).getText(
-                '3ourv2w9' /* __ */,
               ),
               tooltip: '',
             ),
