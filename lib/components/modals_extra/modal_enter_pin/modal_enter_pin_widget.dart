@@ -114,7 +114,7 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                           EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'w63lhi44' /* Enter your PIN below */,
+                          'o4yq2v3n' /* Enter your PIN below */,
                         ),
                         style: FlutterFlowTheme.of(context).headlineMedium,
                       ),
@@ -124,7 +124,7 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                           EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 24.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'cesy0qbp' /* Your project has been created,... */,
+                          'yoqsuu92' /* Your project has been created,... */,
                         ),
                         style: FlutterFlowTheme.of(context).labelMedium,
                       ),
@@ -193,7 +193,7 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                                       print('Button pressed ...');
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'yan3zik2' /* Cancel */,
+                                      '5vpk1yyw' /* Cancel */,
                                     ),
                                     options: FFButtonOptions(
                                       height: 44.0,
@@ -234,7 +234,7 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                                       print('Button pressed ...');
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'ia89k4mg' /* Verify Code */,
+                                      'r23bhryy' /* Verify Code */,
                                     ),
                                     options: FFButtonOptions(
                                       height: 44.0,

@@ -93,7 +93,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
               ),
               title: Text(
                 FFLocalizations.of(context).getText(
-                  'ao46xsuv' /* Add Members */,
+                  'wbqd5qwt' /* Add Members */,
                 ),
                 style: FlutterFlowTheme.of(context).headlineSmall,
               ),
@@ -229,7 +229,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                                     decoration: InputDecoration(
                                       labelText:
                                           FFLocalizations.of(context).getText(
-                                        'g8rv8zhr' /* Search members... */,
+                                        '24b1ivxs' /* Search members... */,
                                       ),
                                       labelStyle: FlutterFlowTheme.of(context)
                                           .labelLarge
@@ -298,7 +298,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                             24.0, 12.0, 0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            '5x8u4g0u' /* All Members */,
+                            'yxdjkyf0' /* All Members */,
                           ),
                           style: FlutterFlowTheme.of(context).labelMedium,
                         ),
@@ -426,7 +426,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                                                 text:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  '4cek35uo' /* View */,
+                                                  'whcjwcnu' /* View */,
                                                 ),
                                                 options: FFButtonOptions(
                                                   width: 70.0,

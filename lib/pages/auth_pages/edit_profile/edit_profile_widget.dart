@@ -68,7 +68,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
         ),
         title: Text(
           FFLocalizations.of(context).getText(
-            '20uycztj' /* Edit Profile */,
+            'nqbreyve' /* Edit Profile */,
           ),
           style: FlutterFlowTheme.of(context).titleLarge,
         ),
@@ -159,7 +159,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           ).then((value) => safeSetState(() {}));
                         },
                         text: FFLocalizations.of(context).getText(
-                          'mk8nnw94' /* Change Photo */,
+                          'egtkxnmx' /* Change Photo */,
                         ),
                         options: FFButtonOptions(
                           height: 44.0,
@@ -199,7 +199,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                       obscureText: false,
                       decoration: InputDecoration(
                         labelText: FFLocalizations.of(context).getText(
-                          '4no7ue4a' /* Your Name */,
+                          'fjybd0lj' /* Your Name */,
                         ),
                         labelStyle: FlutterFlowTheme.of(context).labelMedium,
                         hintStyle: FlutterFlowTheme.of(context).labelMedium,
@@ -249,7 +249,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                   child: SelectionArea(
                       child: Text(
                     FFLocalizations.of(context).getText(
-                      '2rqce1pj' /* The email associated with this... */,
+                      'mynln2na' /* The email associated with this... */,
                     ),
                     style: FlutterFlowTheme.of(context).labelMedium,
                   )),
@@ -290,7 +290,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                       );
                     },
                     text: FFLocalizations.of(context).getText(
-                      'rr8ksatz' /* Save Changes */,
+                      'f1astew7' /* Save Changes */,
                     ),
                     options: FFButtonOptions(
                       height: 52.0,

@@ -246,7 +246,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                 automaticallyImplyLeading: false,
                 title: Text(
                   FFLocalizations.of(context).getText(
-                    '4h88trkp' /* Contracts */,
+                    '6iyabcgm' /* Contracts */,
                   ),
                   style: FlutterFlowTheme.of(context).displaySmall,
                 ),
@@ -312,7 +312,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                   children: [
                                     Text(
                                       FFLocalizations.of(context).getText(
-                                        'smh1o93d' /* Contracts */,
+                                        'cg6uh9dx' /* Contracts */,
                                       ),
                                       textAlign: TextAlign.start,
                                       style: FlutterFlowTheme.of(context)
@@ -378,7 +378,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                 16.0, 4.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                't967eizl' /* Projects */,
+                                'hizkkvfq' /* Projects */,
                               ),
                               style: FlutterFlowTheme.of(context).labelLarge,
                             ),
@@ -473,7 +473,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'dpt94d56' /* No-Code Platform Design */,
+                                                      'vlfks3mm' /* No-Code Platform Design */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -670,7 +670,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      '2a7y5e2w' /* Design Team Docs */,
+                                                      'wy9iibaz' /* Design Team Docs */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -787,7 +787,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                 16.0, 4.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'dlt46loo' /* Contracts */,
+                                'qengxdoh' /* Contracts */,
                               ),
                               style: FlutterFlowTheme.of(context).labelLarge,
                             ),
@@ -956,7 +956,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            'sqmgdsam' /* ACME Co. */,
+                                                            'eti1on05' /* ACME Co. */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -976,7 +976,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              '8t72ssfn' /* Contracts for New Opportunitie... */,
+                                                              'l69duu2w' /* Contracts for New Opportunitie... */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1014,7 +1014,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          'h9kiq8rj' /* Next Action */,
+                                                          'bjciqa3q' /* Next Action */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(
@@ -1033,7 +1033,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            '7mjz03wi' /* Tuesday, 10:00am */,
+                                                            'foeyt1ox' /* Tuesday, 10:00am */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -1082,7 +1082,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          '8e820p1r' /* In Progress */,
+                                                          '8qfbezev' /* In Progress */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(
@@ -1251,7 +1251,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            '7wcrhzda' /* HealthAi */,
+                                                            'mropyvpt' /* HealthAi */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -1271,7 +1271,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'sen48p1q' /* Client Acquisition for Q3 */,
+                                                              'mgdvfb62' /* Client Acquisition for Q3 */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1309,7 +1309,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          'u6ek8ogi' /* Next Action */,
+                                                          'unez6p75' /* Next Action */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(
@@ -1328,7 +1328,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            'zz9ma01i' /* Tuesday, 10:00am */,
+                                                            '2v12kjg0' /* Tuesday, 10:00am */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -1377,7 +1377,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          'nanoxp6w' /* In Progress */,
+                                                          'pt3qzqjq' /* In Progress */,
                                                         ),
                                                         style:
                                                             FlutterFlowTheme.of(

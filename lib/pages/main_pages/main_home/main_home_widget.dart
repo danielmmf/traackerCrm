@@ -826,7 +826,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                 automaticallyImplyLeading: false,
                 title: Text(
                   FFLocalizations.of(context).getText(
-                    'y24lcr13' /* Dashboard */,
+                    'iaoaz36n' /* Dashboard */,
                   ),
                   style: FlutterFlowTheme.of(context).displaySmall.override(
                         fontFamily: 'Outfit',
@@ -902,7 +902,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                   16.0, 0.0, 0.0, 8.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              '3bi54x5g' /* Dashboard */,
+                                              'dy3ymjix' /* Dashboard */,
                                             ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
@@ -916,7 +916,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                   16.0, 0.0, 16.0, 16.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'nnv46x35' /* Below is a summary of your tea... */,
+                                              'g0rtkzaj' /* Below is a summary of your tea... */,
                                             ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
@@ -1055,7 +1055,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'jqevo63s' /* New Customers */,
+                                                              '2gra8nc6' /* New Customers */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1075,7 +1075,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                'd0r4w3cc' /* 24 */,
+                                                                '1m3utksd' /* 24 */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -1200,7 +1200,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              '8vot9bzj' /* New Contracts */,
+                                                              '7lakbrsr' /* New Contracts */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1220,7 +1220,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                '463rfkem' /* 3,200 */,
+                                                                'aqikthg3' /* 3,200 */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -1345,7 +1345,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'saxskj92' /* Expired Contracts */,
+                                                              'sz2i00od' /* Expired Contracts */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1365,7 +1365,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                '2wlrr5lg' /* 4300 */,
+                                                                'hcdkgf8p' /* 4300 */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -1396,7 +1396,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                 16.0, 8.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'kphqz3hi' /* Projects */,
+                                'yd7kz32v' /* Projects */,
                               ),
                               textAlign: TextAlign.start,
                               style: FlutterFlowTheme.of(context).labelLarge,
@@ -1478,7 +1478,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                           0.0, 0.0, 0.0, 8.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'xlzf8qqx' /* UI Design Team */,
+                                          '5ge9fv9i' /* UI Design Team */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium
@@ -1492,7 +1492,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                     ),
                                     Text(
                                       FFLocalizations.of(context).getText(
-                                        'zt3s5l2s' /* 4 Members */,
+                                        'c0q49zn4' /* 4 Members */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleSmall
@@ -1590,7 +1590,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'puy8obok' /* Contract Activity */,
+                                                              'dat0569v' /* Contract Activity */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1610,7 +1610,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                'zlovh0zt' /* Below is an a summary of activ... */,
+                                                                '30vs7mqy' /* Below is an a summary of activ... */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -1809,7 +1809,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'g1uaaovn' /* Customer Activity */,
+                                                              '78lu89n4' /* Customer Activity */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1829,7 +1829,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                'e5q3ows1' /* Below is an a summary of activ... */,
+                                                                'xxozi8td' /* Below is an a summary of activ... */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -2019,7 +2019,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'uj7jsxmo' /* Contract Activity */,
+                                                      '04yazfyb' /* Contract Activity */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -2035,7 +2035,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'hkk2zmjw' /* Below is an a summary of activ... */,
+                                                        'sj6tgyrg' /* Below is an a summary of activ... */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -2203,7 +2203,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'jkgae0vc' /* Customer Activity */,
+                                                      'wtfc4cid' /* Customer Activity */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -2219,7 +2219,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'g4os7kcp' /* Below is an a summary of activ... */,
+                                                        'hbh7yl6g' /* Below is an a summary of activ... */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(

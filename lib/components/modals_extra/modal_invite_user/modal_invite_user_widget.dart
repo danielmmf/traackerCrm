@@ -115,7 +115,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        '2c6w1mkp' /* Edit User Details */,
+                        '5u8uagtf' /* Edit User Details */,
                       ),
                       style: FlutterFlowTheme.of(context).headlineMedium,
                     ),
@@ -125,7 +125,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'nez3q1xc' /* Edit the details of the user b... */,
+                        '5z3vlyne' /* Edit the details of the user b... */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium,
                     ),
@@ -177,7 +177,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                                   children: [
                                     Text(
                                       FFLocalizations.of(context).getText(
-                                        'ea9pniln' /* Randy Peterson */,
+                                        'shiu5o3o' /* Randy Peterson */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall,
@@ -187,7 +187,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                                           0.0, 4.0, 0.0, 0.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'b99om96j' /* name@domainname.com */,
+                                          'n2otqspb' /* name@domainname.com */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .labelMedium
@@ -214,7 +214,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                             obscureText: false,
                             decoration: InputDecoration(
                               labelText: FFLocalizations.of(context).getText(
-                                'ctfs7f6t' /* User Name */,
+                                'keszhycz' /* User Name */,
                               ),
                               labelStyle:
                                   FlutterFlowTheme.of(context).labelMedium,
@@ -269,7 +269,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                             obscureText: false,
                             decoration: InputDecoration(
                               labelText: FFLocalizations.of(context).getText(
-                                'lz0vcvft' /* Bio */,
+                                'fm27oh7x' /* Bio */,
                               ),
                               labelStyle:
                                   FlutterFlowTheme.of(context).labelMedium,
@@ -325,16 +325,16 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                                 FormFieldController<String>(null),
                             options: [
                               FFLocalizations.of(context).getText(
-                                'v93oi4a3' /* Admin */,
+                                'ja3t9ajp' /* Admin */,
                               ),
                               FFLocalizations.of(context).getText(
-                                '1r82hx9g' /* Manager */,
+                                'nnjz9rd0' /* Manager */,
                               ),
                               FFLocalizations.of(context).getText(
-                                '0d3ljp8k' /* Editor */,
+                                '171wegse' /* Editor */,
                               ),
                               FFLocalizations.of(context).getText(
-                                'rk4skmz3' /* Viewer */,
+                                'aoh1o30c' /* Viewer */,
                               )
                             ],
                             onChanged: (val) =>
@@ -343,7 +343,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                             height: 58.0,
                             textStyle: FlutterFlowTheme.of(context).bodyMedium,
                             hintText: FFLocalizations.of(context).getText(
-                              '8ul4j5vv' /* Please select... */,
+                              'y991fnwv' /* Please select... */,
                             ),
                             icon: Icon(
                               Icons.keyboard_arrow_down_rounded,
@@ -380,7 +380,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                               print('Button pressed ...');
                             },
                             text: FFLocalizations.of(context).getText(
-                              'wl5lect6' /* Cancel */,
+                              '1fcw8591' /* Cancel */,
                             ),
                             options: FFButtonOptions(
                               height: 44.0,
@@ -417,7 +417,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                               print('Button pressed ...');
                             },
                             text: FFLocalizations.of(context).getText(
-                              'j7urjwc8' /* Send Invites */,
+                              'sekfikj5' /* Send Invites */,
                             ),
                             options: FFButtonOptions(
                               height: 44.0,

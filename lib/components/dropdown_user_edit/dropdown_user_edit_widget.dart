@@ -68,7 +68,7 @@ class _DropdownUserEditWidgetState extends State<DropdownUserEditWidget> {
                         EdgeInsetsDirectional.fromSTEB(12.0, 12.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'vqk7im3j' /* Options */,
+                        'c8ysdxiu' /* Options */,
                       ),
                       textAlign: TextAlign.start,
                       style: FlutterFlowTheme.of(context).labelMedium,
@@ -112,7 +112,7 @@ class _DropdownUserEditWidgetState extends State<DropdownUserEditWidget> {
                                       12.0, 0.0, 0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      'ufasy4ju' /* Edit */,
+                                      'd9ryt002' /* Edit */,
                                     ),
                                     style:
                                         FlutterFlowTheme.of(context).bodyMedium,
@@ -164,7 +164,7 @@ class _DropdownUserEditWidgetState extends State<DropdownUserEditWidget> {
                                     12.0, 0.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    '6kc0o458' /* Assign */,
+                                    '54uadx3u' /* Assign */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).bodyMedium,
@@ -215,7 +215,7 @@ class _DropdownUserEditWidgetState extends State<DropdownUserEditWidget> {
                                     12.0, 0.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'jqnyu0j6' /* Share */,
+                                    'a8chgsdz' /* Share */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).bodyMedium,
@@ -276,7 +276,7 @@ class _DropdownUserEditWidgetState extends State<DropdownUserEditWidget> {
                                     12.0, 0.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    '9qkfsg85' /* Delete */,
+                                    'vvtmwqdd' /* Delete */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium

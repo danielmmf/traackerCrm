@@ -98,7 +98,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                     0.0, 4.0, 16.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    '6bnefz1c' /* Change Photo */,
+                                    'hrtlbrem' /* Change Photo */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .headlineMedium,
@@ -109,7 +109,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                     0.0, 8.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'yaxe7q8v' /* Upload a new photo below in or... */,
+                                    'lm9t5o81' /* Upload a new photo below in or... */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).labelMedium,
@@ -288,7 +288,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          're4x0sz7' /* Upload Image */,
+                                          '102sp48z' /* Upload Image */,
                                         ),
                                         options: FFButtonOptions(
                                           height: 44.0,
@@ -340,7 +340,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          'sr54fsk6' /* Save Changes */,
+                                          'dpxwp3cm' /* Save Changes */,
                                         ),
                                         options: FFButtonOptions(
                                           height: 44.0,

@@ -290,7 +290,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                         ),
                         Text(
                           FFLocalizations.of(context).getText(
-                            'kred63vb' /* Send Contract Confirmation */,
+                            'o4z6h2al' /* Send Contract Confirmation */,
                           ),
                           style: FlutterFlowTheme.of(context).headlineSmall,
                         ).animateOnPageLoad(
@@ -300,7 +300,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                               0.0, 8.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'hywgg8eu' /* A new contract has been genera... */,
+                              'wb1i7hws' /* A new contract has been genera... */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ).animateOnPageLoad(
@@ -363,7 +363,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'kmp2gbpy' /* Randy Alcorn */,
+                                                'xlmpa9un' /* Randy Alcorn */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -377,7 +377,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'a7nc1dt4' /* Head of Procurement */,
+                                                'nmyocgg5' /* Head of Procurement */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -391,7 +391,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                '2f2nxucv' /* ACME Co. */,
+                                                'hdo1wtaa' /* ACME Co. */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -428,7 +428,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                               0.0, 16.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'vcm4fijj' /* Next Steps */,
+                              '08yl0dn3' /* Next Steps */,
                             ),
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -444,7 +444,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                               0.0, 4.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              '60n0fqw5' /* Send the information below. An... */,
+                              'mi8x8ydt' /* Send the information below. An... */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ).animateOnPageLoad(
@@ -476,7 +476,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                               context.pop();
                             },
                             text: FFLocalizations.of(context).getText(
-                              'e408bhw6' /* Send Information */,
+                              'vfjtm79t' /* Send Information */,
                             ),
                             options: FFButtonOptions(
                               width: double.infinity,
@@ -516,7 +516,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                               context.pop();
                             },
                             text: FFLocalizations.of(context).getText(
-                              'wo1onxhi' /* Never Mind */,
+                              '7y3f7as6' /* Never Mind */,
                             ),
                             options: FFButtonOptions(
                               width: double.infinity,

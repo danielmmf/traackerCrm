@@ -101,7 +101,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'sy0pxvma' /* Dashboard */,
+                          'ck1tal2n' /* Dashboard */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Plus Jakarta Sans',
@@ -143,7 +143,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          't5c3aiuy' /* My Team */,
+                          'i2d5pmfg' /* My Team */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Plus Jakarta Sans',
@@ -185,7 +185,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'nkz3c58a' /* Customers */,
+                          'at6e9fup' /* Customers */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Plus Jakarta Sans',
@@ -227,7 +227,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          '1mkyyjwj' /* Contracts */,
+                          'w76jpp8r' /* Contracts */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Plus Jakarta Sans',
@@ -269,7 +269,7 @@ class _MobileNavWidgetState extends State<MobileNavWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'eg79coc6' /* Profile */,
+                          'vnrxmuln' /* Profile */,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Plus Jakarta Sans',

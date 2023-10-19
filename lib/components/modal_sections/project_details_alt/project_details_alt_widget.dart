@@ -284,7 +284,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                           children: [
                             Text(
                               FFLocalizations.of(context).getText(
-                                'zgyw4s95' /* ACME Co. */,
+                                '9uv90bqj' /* ACME Co. */,
                               ),
                               style: FlutterFlowTheme.of(context).headlineSmall,
                             ).animateOnPageLoad(
@@ -294,7 +294,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                   0.0, 4.0, 0.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'izuvtgws' /* Contracts for New Opportunitie... */,
+                                  'w5jvmkkd' /* Contracts for New Opportunitie... */,
                                 ),
                                 style: FlutterFlowTheme.of(context).labelLarge,
                               ).animateOnPageLoad(
@@ -325,7 +325,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 8.0),
                   child: Text(
                     FFLocalizations.of(context).getText(
-                      'gamp8n19' /* Assigned To */,
+                      'xqxnjkc0' /* Assigned To */,
                     ),
                     style: FlutterFlowTheme.of(context).bodyMedium,
                   ),
@@ -387,7 +387,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                       12.0, 0.0, 0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      'obbewkqp' /* Randy Rudolph */,
+                                      'f0vhbgw6' /* Randy Rudolph */,
                                     ),
                                     style:
                                         FlutterFlowTheme.of(context).bodyLarge,
@@ -398,7 +398,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                       12.0, 4.0, 0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      'ae8di6vv' /* name@domain.com */,
+                                      '6n5z0jvm' /* name@domain.com */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -443,7 +443,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                   children: [
                     Text(
                       FFLocalizations.of(context).getText(
-                        'x6aorxwd' /* Next Action */,
+                        'dd9b0xdh' /* Next Action */,
                       ),
                       style: FlutterFlowTheme.of(context).bodyMedium,
                     ),
@@ -453,7 +453,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                             EdgeInsetsDirectional.fromSTEB(4.0, 0.0, 0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            '8sktau69' /* Tuesday, 10:00am */,
+                            'tkgfyhmn' /* Tuesday, 10:00am */,
                           ),
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
@@ -479,7 +479,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                             16.0, 0.0, 16.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
-                            'ck1j2u5s' /* In Progress */,
+                            '7wor1mst' /* In Progress */,
                           ),
                           style: FlutterFlowTheme.of(context).bodyMedium,
                         ),
@@ -523,17 +523,17 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                   tabs: [
                     Tab(
                       text: FFLocalizations.of(context).getText(
-                        '3z7p2nt3' /* Activity */,
+                        '6jall88x' /* Activity */,
                       ),
                     ),
                     Tab(
                       text: FFLocalizations.of(context).getText(
-                        'n251rti5' /* Contracts */,
+                        'p9uamaqv' /* Contracts */,
                       ),
                     ),
                     Tab(
                       text: FFLocalizations.of(context).getText(
-                        'x8yfre0t' /* Project Details */,
+                        '4o8dzoau' /* Project Details */,
                       ),
                     ),
                   ],
@@ -613,7 +613,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   text: FFLocalizations.of(
                                                           context)
                                                       .getText(
-                                                    '4fs4d1ar' /* FlutterFlow CRM App: */,
+                                                    'ovq7t8iq' /* FlutterFlow CRM App: */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -633,7 +633,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   text: FFLocalizations.of(
                                                           context)
                                                       .getText(
-                                                    'n5ub587t' /*  Begin Work */,
+                                                    'j9ncocoz' /*  Begin Work */,
                                                   ),
                                                   style: TextStyle(),
                                                 )
@@ -672,7 +672,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'y2yi7ro1' /* SOW Change Order */,
+                                                    'fccggead' /* SOW Change Order */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -695,7 +695,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'tyo3th3g' /* FlutterFlow CRM App */,
+                                                      '6bbiq9bp' /* FlutterFlow CRM App */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -712,7 +712,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   0.0, 4.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              't1shbmsx' /* Jul 8, at 4:31pm */,
+                                              '0sx85jn1' /* Jul 8, at 4:31pm */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium,
@@ -791,7 +791,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   text: FFLocalizations.of(
                                                           context)
                                                       .getText(
-                                                    'fjdirac9' /* Jeremiah Goldsten  */,
+                                                    'o7j4cuuz' /* Jeremiah Goldsten  */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -811,7 +811,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   text: FFLocalizations.of(
                                                           context)
                                                       .getText(
-                                                    'g9h5nanl' /* accepted a request */,
+                                                    'b1v6cjl2' /* accepted a request */,
                                                   ),
                                                   style: TextStyle(),
                                                 )
@@ -842,7 +842,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'ndvrf4a3' /* SOW Change Order */,
+                                                    '5ek4g7bc' /* SOW Change Order */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -865,7 +865,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'ruswj67g' /* FlutterFlow CRM App */,
+                                                      '9g1t934n' /* FlutterFlow CRM App */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -879,7 +879,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'cgdoty6v' /* "Notifications and reminders i... */,
+                                                      'fooroh0q' /* "Notifications and reminders i... */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -896,7 +896,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   0.0, 4.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'z3xab243' /* Jul 8, at 4:30pm */,
+                                              'weqlca8k' /* Jul 8, at 4:30pm */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium,
@@ -975,7 +975,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   text: FFLocalizations.of(
                                                           context)
                                                       .getText(
-                                                    'a19jraal' /* Randy Rudolph  */,
+                                                    'w1ryn345' /* Randy Rudolph  */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -995,7 +995,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   text: FFLocalizations.of(
                                                           context)
                                                       .getText(
-                                                    'b3k94yjl' /* sent a SOW Change Order for  */,
+                                                    'x9n8k4qz' /* sent a SOW Change Order for  */,
                                                   ),
                                                   style: TextStyle(),
                                                 ),
@@ -1003,7 +1003,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   text: FFLocalizations.of(
                                                           context)
                                                       .getText(
-                                                    '9vhvqp6g' /* FlutterFlow CRM APP */,
+                                                    'ils0ngls' /* FlutterFlow CRM APP */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -1042,7 +1042,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    '7djk72um' /* SOW Change Order */,
+                                                    '3anj10p2' /* SOW Change Order */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -1065,7 +1065,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'qysyag2v' /* FlutterFlow CRM App */,
+                                                      '8zp49wm4' /* FlutterFlow CRM App */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1079,7 +1079,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'ur5udrbc' /* "Please review the updates to ... */,
+                                                      'w0v6189l' /* "Please review the updates to ... */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1096,7 +1096,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                   0.0, 4.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'm8scfp1r' /* Jul 8, at 2:20pm */,
+                                              'afs4v2oo' /* Jul 8, at 2:20pm */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelMedium,
@@ -1162,7 +1162,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                         16.0, 0.0, 16.0, 8.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'i8p8t5uw' /* Updates to Existing App */,
+                                        'kau0tmbs' /* Updates to Existing App */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall,
@@ -1174,7 +1174,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                         16.0, 0.0, 16.0, 0.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'ks3nu6ra' /* Additional Details around this... */,
+                                        'm0t4g5za' /* Additional Details around this... */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium,
@@ -1204,7 +1204,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'f3u7xqx4' /* Contract Details */,
+                                                    'pq1mbld3' /* Contract Details */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -1218,7 +1218,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'r2ns8igs' /* $210,000 */,
+                                                    '0rnsror5' /* $210,000 */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -1234,7 +1234,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                           },
                                           text: FFLocalizations.of(context)
                                               .getText(
-                                            'y5zgyf1b' /* Mark as Complete */,
+                                            'g9kjxkho' /* Mark as Complete */,
                                           ),
                                           options: FFButtonOptions(
                                             height: 36.0,
@@ -1402,7 +1402,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                         16.0, 0.0, 16.0, 8.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'va0zdk6p' /* New FlutterFlow App */,
+                                        'crjlpltg' /* New FlutterFlow App */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall,
@@ -1414,7 +1414,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                         16.0, 0.0, 16.0, 0.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        't24sfvud' /* The user can browse through ou... */,
+                                        'ariorxjh' /* The user can browse through ou... */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium,
@@ -1444,7 +1444,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'nzh0mhza' /* Contract Details */,
+                                                    'hlq4sypp' /* Contract Details */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -1458,7 +1458,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'dmcqhebq' /* $67,000 */,
+                                                    '0xclxmka' /* $67,000 */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -1474,7 +1474,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                           },
                                           text: FFLocalizations.of(context)
                                               .getText(
-                                            'it7y6ia8' /* Mark as Complete */,
+                                            '76flbloo' /* Mark as Complete */,
                                           ),
                                           options: FFButtonOptions(
                                             height: 36.0,

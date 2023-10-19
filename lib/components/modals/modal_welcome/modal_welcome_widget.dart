@@ -236,7 +236,7 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
                         ),
                         Text(
                           FFLocalizations.of(context).getText(
-                            '00flvi93' /* Congratulations! */,
+                            '2mg9y1m1' /* Congratulations! */,
                           ),
                           style: FlutterFlowTheme.of(context).headlineMedium,
                         ).animateOnPageLoad(
@@ -246,7 +246,7 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
                               0.0, 8.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'fmzceh74' /* A new contract has been genera... */,
+                              '0xbj68r6' /* A new contract has been genera... */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ).animateOnPageLoad(
@@ -309,7 +309,7 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
                                     );
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'g8q2u55w' /* Continue */,
+                                    'zihrlutq' /* Continue */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 52.0,

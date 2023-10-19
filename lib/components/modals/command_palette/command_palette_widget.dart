@@ -178,7 +178,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                         decoration: InputDecoration(
                                           hintText: FFLocalizations.of(context)
                                               .getText(
-                                            'jt9g5o8v' /* Search platform... */,
+                                            'p5exoxw1' /* Search platform... */,
                                           ),
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
@@ -270,7 +270,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                         Navigator.pop(context);
                                       },
                                       text: FFLocalizations.of(context).getText(
-                                        'b3bd9y8w' /* Search */,
+                                        'djwwauej' /* Search */,
                                       ),
                                       options: FFButtonOptions(
                                         height: 44.0,
@@ -318,7 +318,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                     24.0, 12.0, 0.0, 12.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'pw6kvl1f' /* Quick Links */,
+                                    'msnhfrsd' /* Quick Links */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -368,7 +368,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'gckukxjv' /* Add Quiz */,
+                                                'q7w48rsn' /* Add Quiz */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -446,7 +446,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'zsq8vj02' /* Find Customer */,
+                                                      '6jac8jof' /* Find Customer */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -534,7 +534,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'iqxwv326' /* New Project */,
+                                                      '2y3rg9ll' /* New Project */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -586,7 +586,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    's60yfg0g' /* New Customer */,
+                                                    'nog04qs1' /* New Customer */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)

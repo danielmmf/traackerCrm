@@ -24,7 +24,7 @@ class ModalCreateProjectModel
   String? _projectNameControllerValidator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        '4spmowtt' /* Please enter a project name... */,
+        'q21n8hug' /* Please enter a project name... */,
       );
     }
 
@@ -37,7 +37,7 @@ class ModalCreateProjectModel
   String? _descriptionControllerValidator(BuildContext context, String? val) {
     if (val == null || val.isEmpty) {
       return FFLocalizations.of(context).getText(
-        'wfu6up0n' /* Please enter a short descripti... */,
+        't1of39qe' /* Please enter a short descripti... */,
       );
     }
 

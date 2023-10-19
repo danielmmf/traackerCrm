@@ -306,7 +306,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                             ),
                             Text(
                               FFLocalizations.of(context).getText(
-                                '3p97u62u' /* Welcome Back! */,
+                                've8m5y6t' /* Welcome Back! */,
                               ),
                               style: FlutterFlowTheme.of(context).displaySmall,
                             ).animateOnPageLoad(
@@ -316,7 +316,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                   0.0, 4.0, 0.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'xkz4xjo6' /* Use the form below to access y... */,
+                                  'nrz6tgao' /* Use the form below to access y... */,
                                 ),
                                 style: FlutterFlowTheme.of(context).labelLarge,
                               ).animateOnPageLoad(
@@ -337,13 +337,13 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                       decoration: InputDecoration(
                                         labelText:
                                             FFLocalizations.of(context).getText(
-                                          'k9u5spqi' /* Email Address */,
+                                          'gt7wq2hw' /* Email Address */,
                                         ),
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .labelMedium,
                                         hintText:
                                             FFLocalizations.of(context).getText(
-                                          'f4xxyrqv' /* Enter your email here... */,
+                                          'bhbetfmh' /* Enter your email here... */,
                                         ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .labelMedium,
@@ -419,13 +419,13 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                       decoration: InputDecoration(
                                         labelText:
                                             FFLocalizations.of(context).getText(
-                                          'lfzvgi5q' /* Password */,
+                                          'u4v4f7zu' /* Password */,
                                         ),
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .labelMedium,
                                         hintText:
                                             FFLocalizations.of(context).getText(
-                                          'wt8sx5du' /* Enter your password here... */,
+                                          'zj808ybc' /* Enter your password here... */,
                                         ),
                                         hintStyle: FlutterFlowTheme.of(context)
                                             .labelMedium,
@@ -517,7 +517,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                       context.pushNamed('forgotPassword');
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      's8bicxzh' /* Forgot Password? */,
+                                      'ir6csuz2' /* Forgot Password? */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 170.0,
@@ -560,7 +560,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                           'Main_Home', context.mounted);
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'm9klj9ah' /* Login */,
+                                      'c6pan5lh' /* Login */,
                                     ),
                                     options: FFButtonOptions(
                                       height: 52.0,
@@ -606,7 +606,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'tcu0c8bu' /* Don't have an account? */,
+                                      's7cm0ts4' /* Don't have an account? */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -629,7 +629,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                       );
                                     },
                                     text: FFLocalizations.of(context).getText(
-                                      'kk2rdqi2' /* Create Account */,
+                                      '8qecwnd8' /* Create Account */,
                                     ),
                                     options: FFButtonOptions(
                                       width: 130.0,

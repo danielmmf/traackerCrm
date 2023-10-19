@@ -119,7 +119,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'qs8serr4' /* Edit Profile */,
+                        'pkdhazzg' /* Edit Profile */,
                       ),
                       style: FlutterFlowTheme.of(context).headlineMedium,
                     ),
@@ -129,7 +129,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'bvy3fs93' /* Below are your profile details */,
+                        'j0xuuk8x' /* Below are your profile details */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium,
                     ),
@@ -182,7 +182,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                 print('Button pressed ...');
                               },
                               text: FFLocalizations.of(context).getText(
-                                'nx89dnuw' /* Change Photo */,
+                                'x5p4bcbn' /* Change Photo */,
                               ),
                               options: FFButtonOptions(
                                 height: 44.0,
@@ -222,7 +222,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                           obscureText: false,
                           decoration: InputDecoration(
                             labelText: FFLocalizations.of(context).getText(
-                              '99oumm34' /* Your Name */,
+                              'dh7wm4he' /* Your Name */,
                             ),
                             labelStyle:
                                 FlutterFlowTheme.of(context).labelMedium,
@@ -275,7 +275,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                           obscureText: false,
                           decoration: InputDecoration(
                             labelText: FFLocalizations.of(context).getText(
-                              '8gkrs3rw' /* Short Description */,
+                              'hsvocm8a' /* Short Description */,
                             ),
                             labelStyle:
                                 FlutterFlowTheme.of(context).labelMedium,
@@ -330,21 +330,21 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                               FormFieldController<String>(
                             _model.dropDownValue ??=
                                 FFLocalizations.of(context).getText(
-                              '5bl6mh8m' /* Admin */,
+                              'vm2xpc0q' /* Admin */,
                             ),
                           ),
                           options: [
                             FFLocalizations.of(context).getText(
-                              'au9c3fpx' /* Admin */,
+                              'y3dvlwfy' /* Admin */,
                             ),
                             FFLocalizations.of(context).getText(
-                              '6qzm16cz' /* Manager */,
+                              '1x4hf5zu' /* Manager */,
                             ),
                             FFLocalizations.of(context).getText(
-                              '6xjfeugp' /* Editor */,
+                              'aidpvg2a' /* Editor */,
                             ),
                             FFLocalizations.of(context).getText(
-                              '4ga29wxb' /* Viewer */,
+                              'dpidk3se' /* Viewer */,
                             )
                           ],
                           onChanged: (val) =>
@@ -353,7 +353,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                           height: 58.0,
                           textStyle: FlutterFlowTheme.of(context).bodyMedium,
                           hintText: FFLocalizations.of(context).getText(
-                            'r971lmjm' /* Please select... */,
+                            'zss1z1tq' /* Please select... */,
                           ),
                           icon: Icon(
                             Icons.keyboard_arrow_down_rounded,
@@ -391,7 +391,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                     child: SelectionArea(
                                         child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'p1lquhce' /* The email associated with this... */,
+                                        '5882l8dj' /* The email associated with this... */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium,
@@ -403,7 +403,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                     child: SelectionArea(
                                         child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'i6iuebkd' /* casper@ghostbusters.com */,
+                                        'bxfxqrcj' /* casper@ghostbusters.com */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge,
@@ -424,7 +424,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                     child: SelectionArea(
                                         child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'fyuvtufe' /* Created On: */,
+                                        'qid2e28n' /* Created On: */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium,
@@ -436,7 +436,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                     child: SelectionArea(
                                         child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'jk8us6c6' /* July 12th, 2023 */,
+                                        '70hcubz1' /* July 12th, 2023 */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge,
@@ -457,7 +457,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                     child: SelectionArea(
                                         child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'h4jwedag' /* Last Active: */,
+                                        'm8l109fl' /* Last Active: */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium,
@@ -469,7 +469,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                     child: SelectionArea(
                                         child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'iakkv8eq' /* Just Now */,
+                                        'l5voyw5y' /* Just Now */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge,
@@ -499,7 +499,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                               Navigator.pop(context);
                             },
                             text: FFLocalizations.of(context).getText(
-                              '27w5o6gn' /* Cancel */,
+                              'l5smwzux' /* Cancel */,
                             ),
                             options: FFButtonOptions(
                               height: 44.0,
@@ -559,7 +559,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                               );
                             },
                             text: FFLocalizations.of(context).getText(
-                              'gz2xhplu' /* Save Changes */,
+                              'tqut5hxm' /* Save Changes */,
                             ),
                             options: FFButtonOptions(
                               height: 44.0,

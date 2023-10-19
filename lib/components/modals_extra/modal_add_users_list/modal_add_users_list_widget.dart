@@ -114,7 +114,7 @@ class _ModalAddUsersListWidgetState extends State<ModalAddUsersListWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'u8eoldhj' /* Invite your Team */,
+                        'ponxxfhj' /* Invite your Team */,
                       ),
                       style: FlutterFlowTheme.of(context).headlineMedium,
                     ),
@@ -124,7 +124,7 @@ class _ModalAddUsersListWidgetState extends State<ModalAddUsersListWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'z2uzep65' /* Your project has been created,... */,
+                        '5kml9uy0' /* Your project has been created,... */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium,
                     ),
@@ -149,7 +149,7 @@ class _ModalAddUsersListWidgetState extends State<ModalAddUsersListWidget>
                                   decoration: InputDecoration(
                                     labelText:
                                         FFLocalizations.of(context).getText(
-                                      'dlpajrga' /* Email address... */,
+                                      'cobrzccb' /* Email address... */,
                                     ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -245,7 +245,7 @@ class _ModalAddUsersListWidgetState extends State<ModalAddUsersListWidget>
                                   children: [
                                     Text(
                                       FFLocalizations.of(context).getText(
-                                        'timt0a9e' /* email@domainname.com */,
+                                        'zu2qo9my' /* email@domainname.com */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium,
@@ -268,7 +268,7 @@ class _ModalAddUsersListWidgetState extends State<ModalAddUsersListWidget>
                                   children: [
                                     Text(
                                       FFLocalizations.of(context).getText(
-                                        'haz2ntfz' /* email@domainname.com */,
+                                        'hru1l6vi' /* email@domainname.com */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium,
@@ -298,7 +298,7 @@ class _ModalAddUsersListWidgetState extends State<ModalAddUsersListWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'd9dnbwow' /* Cancel */,
+                                    'peo3lwaq' /* Cancel */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,
@@ -337,7 +337,7 @@ class _ModalAddUsersListWidgetState extends State<ModalAddUsersListWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    '7hmdi9ah' /* Send Invites */,
+                                    'db6lpb4k' /* Send Invites */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,

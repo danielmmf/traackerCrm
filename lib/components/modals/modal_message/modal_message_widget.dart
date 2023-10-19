@@ -229,7 +229,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                         ),
                         Text(
                           FFLocalizations.of(context).getText(
-                            'wa4vkne2' /* Congratulations! */,
+                            'v6vbzgkz' /* Congratulations! */,
                           ),
                           style: FlutterFlowTheme.of(context).headlineSmall,
                         ).animateOnPageLoad(
@@ -239,7 +239,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                               0.0, 8.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              '3hf2ocig' /* Now that a contract has been g... */,
+                              's6wbnbnb' /* Now that a contract has been g... */,
                             ),
                             style: FlutterFlowTheme.of(context).labelLarge,
                           ).animateOnPageLoad(
@@ -257,7 +257,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'q0jvi1lp' /* Okay */,
+                                    'urbhjqld' /* Okay */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,
@@ -295,7 +295,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'oo4y13nf' /* Continue */,
+                                    'i4lkja0r' /* Continue */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,

@@ -118,7 +118,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'v7w6sfgf' /* Create Company Profile */,
+                        'yi0wllgs' /* Create Company Profile */,
                       ),
                       style: FlutterFlowTheme.of(context).headlineMedium,
                     ),
@@ -128,7 +128,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'bb7jk21d' /* Upload images about your compa... */,
+                        'utnm0da7' /* Upload images about your compa... */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium,
                     ),
@@ -303,7 +303,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                             obscureText: false,
                             decoration: InputDecoration(
                               labelText: FFLocalizations.of(context).getText(
-                                '2zz9r0nk' /* Company Name */,
+                                'r8fj7u3w' /* Company Name */,
                               ),
                               labelStyle:
                                   FlutterFlowTheme.of(context).labelMedium,
@@ -358,7 +358,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                             obscureText: false,
                             decoration: InputDecoration(
                               labelText: FFLocalizations.of(context).getText(
-                                'hsxlh4zc' /* Company City */,
+                                'ya19zc1r' /* Company City */,
                               ),
                               labelStyle:
                                   FlutterFlowTheme.of(context).labelMedium,
@@ -413,12 +413,12 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                             obscureText: false,
                             decoration: InputDecoration(
                               labelText: FFLocalizations.of(context).getText(
-                                'f1aegt92' /* Website */,
+                                '58spyt9l' /* Website */,
                               ),
                               labelStyle:
                                   FlutterFlowTheme.of(context).labelMedium,
                               hintText: FFLocalizations.of(context).getText(
-                                'nrfx3n3y' /* Enter in your website without ... */,
+                                'q1e7ernu' /* Enter in your website without ... */,
                               ),
                               hintStyle:
                                   FlutterFlowTheme.of(context).labelMedium,
@@ -476,7 +476,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'p9crjkw6' /* Cancel */,
+                                    '3b7rv3ii' /* Cancel */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,
@@ -515,7 +515,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'fgcl19a6' /* Create Company */,
+                                    'fu492ikp' /* Create Company */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,

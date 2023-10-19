@@ -99,7 +99,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                               16.0, 12.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'l2jlnhye' /* Create Note */,
+                              'wu7zsnw9' /* Create Note */,
                             ),
                             style: FlutterFlowTheme.of(context).headlineSmall,
                           ),
@@ -109,7 +109,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                               16.0, 4.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'd6yfe8tj' /* Find members by searching belo... */,
+                              'h35qsqls' /* Find members by searching belo... */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ),
@@ -134,7 +134,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                                     12.0, 0.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'p3rj5ra0' /* Ricky Rodriguez */,
+                                    'tayyduii' /* Ricky Rodriguez */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).titleLarge,
@@ -151,7 +151,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                             obscureText: false,
                             decoration: InputDecoration(
                               hintText: FFLocalizations.of(context).getText(
-                                '9gf6o5ss' /* Enter your note here... */,
+                                'rcef1x9r' /* Enter your note here... */,
                               ),
                               hintStyle:
                                   FlutterFlowTheme.of(context).labelLarge,
@@ -210,7 +210,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                                   context.pop();
                                 },
                                 text: FFLocalizations.of(context).getText(
-                                  'farrki57' /* Create Note */,
+                                  '9v8e6cz5' /* Create Note */,
                                 ),
                                 options: FFButtonOptions(
                                   height: 52.0,

@@ -178,7 +178,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                           16.0, 0.0, 0.0, 0.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'qrxn5crt' /* My Profile */,
+                                          'lop4pude' /* My Profile */,
                                         ),
                                         textAlign: TextAlign.start,
                                         style: FlutterFlowTheme.of(context)
@@ -347,7 +347,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                       24.0, 12.0, 0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      'fyxsf6vn' /* Account Settings */,
+                                      '1adhtzoh' /* Account Settings */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -405,7 +405,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'h43llaan' /* Change Password */,
+                                                  'wbt7du3j' /* Change Password */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -506,7 +506,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                 child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'b1lw0hfu' /* Edit Profile */,
+                                                    'h1q2j7b9' /* Edit Profile */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -612,7 +612,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'clf3bzn3' /* Update Theme */,
+                                                      'el7wmnlk' /* Update Theme */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -627,7 +627,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'dujofvd2' /* Update the theme of your appli... */,
+                                                        'r3v5efsf' /* Update the theme of your appli... */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -773,7 +773,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 4.0, 0.0, 4.0),
                                                                                 child: Text(
                                                                                   FFLocalizations.of(context).getText(
-                                                                                    'zohqypc2' /* Dark Mode */,
+                                                                                    '51l4mxde' /* Dark Mode */,
                                                                                   ),
                                                                                   style: FlutterFlowTheme.of(context).titleLarge.override(
                                                                                         fontFamily: 'Plus Jakarta Sans',
@@ -998,7 +998,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 4.0, 0.0, 4.0),
                                                                                 child: Text(
                                                                                   FFLocalizations.of(context).getText(
-                                                                                    't3a5lo8r' /* Light Mode */,
+                                                                                    'bbphmr42' /* Light Mode */,
                                                                                   ),
                                                                                   style: FlutterFlowTheme.of(context).titleLarge.override(
                                                                                         fontFamily: 'Plus Jakarta Sans',
@@ -1147,7 +1147,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(
-                                          'abqf147c' /* Log Out */,
+                                          '35x5szy3' /* Log Out */,
                                         ),
                                         options: FFButtonOptions(
                                           height: 44.0,

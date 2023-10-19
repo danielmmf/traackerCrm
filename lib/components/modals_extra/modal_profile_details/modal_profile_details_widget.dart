@@ -125,7 +125,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'xt43uwzp' /* Profile Details */,
+                        '4ai5khng' /* Profile Details */,
                       ),
                       style: FlutterFlowTheme.of(context).headlineMedium,
                     ),
@@ -135,7 +135,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        '9ren6rbd' /* Below are your profile details */,
+                        '2u3wdo07' /* Below are your profile details */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium,
                     ),
@@ -188,7 +188,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                   children: [
                                     Text(
                                       FFLocalizations.of(context).getText(
-                                        'izapnzh1' /* Randy Peterson */,
+                                        'rle7t3kd' /* Randy Peterson */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .displaySmall,
@@ -198,7 +198,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                           0.0, 4.0, 0.0, 0.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          '17qiejhp' /* name@domainname.com */,
+                                          'rvgffcl2' /* name@domainname.com */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge
@@ -221,7 +221,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               0.0, 4.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              '5bzj3jf4' /* Manage your account */,
+                              '4e7p3a0w' /* Manage your account */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ),
@@ -250,7 +250,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'x1e6b7y8' /* Edit Profile */,
+                                      'g0nvlyfh' /* Edit Profile */,
                                     ),
                                     style:
                                         FlutterFlowTheme.of(context).bodyLarge,
@@ -290,7 +290,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'nj27bwmg' /* Reset Password */,
+                                      'd3gufyal' /* Reset Password */,
                                     ),
                                     style:
                                         FlutterFlowTheme.of(context).bodyLarge,
@@ -387,7 +387,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'wbiu740t' /* Light Mode */,
+                                                  '67up1add' /* Light Mode */,
                                                 ),
                                                 style: FlutterFlowTheme.of(
                                                         context)
@@ -472,7 +472,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  's5971e7s' /* Dark Mode */,
+                                                  'efdzm127' /* Dark Mode */,
                                                 ),
                                                 style: FlutterFlowTheme.of(
                                                         context)
@@ -510,7 +510,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               0.0, 4.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              'n3qmt0u6' /* Get in Touch */,
+                              '1adearn6' /* Get in Touch */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ),
@@ -539,7 +539,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'xp11z0da' /* Help & Support */,
+                                      'ciqzw0rw' /* Help & Support */,
                                     ),
                                     style:
                                         FlutterFlowTheme.of(context).bodyLarge,
@@ -579,7 +579,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'ufr3yhgk' /* Share [App Name] */,
+                                      'nk8xfgz7' /* Share [App Name] */,
                                     ),
                                     style:
                                         FlutterFlowTheme.of(context).bodyLarge,
@@ -614,7 +614,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               print('Button pressed ...');
                             },
                             text: FFLocalizations.of(context).getText(
-                              'riwckyhb' /* Close */,
+                              'huangpgg' /* Close */,
                             ),
                             options: FFButtonOptions(
                               height: 44.0,

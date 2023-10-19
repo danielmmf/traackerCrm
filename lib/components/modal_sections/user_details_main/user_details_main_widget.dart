@@ -407,7 +407,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                             children: [
                               Text(
                                 FFLocalizations.of(context).getText(
-                                  '918p9oc4' /* Customer Name */,
+                                  '4u14g7mi' /* Customer Name */,
                                 ),
                                 style: FlutterFlowTheme.of(context).labelMedium,
                               ).animateOnPageLoad(
@@ -417,7 +417,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                     0.0, 4.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'gs85nrf2' /* Randy Alcorn */,
+                                    'z9sbm2fl' /* Randy Alcorn */,
                                   ),
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.of(context)
@@ -485,7 +485,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                             ),
                             Text(
                               FFLocalizations.of(context).getText(
-                                '534e9fmv' /* High Profile */,
+                                'vqwx0gno' /* High Profile */,
                               ),
                               style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
@@ -503,7 +503,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                         children: [
                           Text(
                             FFLocalizations.of(context).getText(
-                              'jindju5a' /* Title */,
+                              'skqf04o7' /* Title */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ).animateOnPageLoad(
@@ -513,7 +513,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                 0.0, 4.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'ouyjuyvf' /* Head of Procurement */,
+                                'ox337fvi' /* Head of Procurement */,
                               ),
                               textAlign: TextAlign.start,
                               style: FlutterFlowTheme.of(context).headlineSmall,
@@ -532,7 +532,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                         children: [
                           Text(
                             FFLocalizations.of(context).getText(
-                              '8viyn84n' /* Company */,
+                              'esbhueit' /* Company */,
                             ),
                             style: FlutterFlowTheme.of(context).labelMedium,
                           ).animateOnPageLoad(
@@ -542,7 +542,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                 0.0, 4.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                '7enxw4hk' /* ACME Co. */,
+                                'aqdbhq4k' /* ACME Co. */,
                               ),
                               textAlign: TextAlign.start,
                               style: FlutterFlowTheme.of(context)
@@ -568,7 +568,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                           EdgeInsetsDirectional.fromSTEB(20.0, 8.0, 0.0, 0.0),
                       child: Text(
                         FFLocalizations.of(context).getText(
-                          'f6o8asym' /* Notes */,
+                          'c5jxplxt' /* Notes */,
                         ),
                         style: FlutterFlowTheme.of(context).labelMedium,
                       ).animateOnPageLoad(
@@ -618,7 +618,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                             Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'p41433bd' /* Alexandria Smith */,
+                                                'eyujd4cm' /* Alexandria Smith */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -630,7 +630,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'a3j3ejvp' /* 1m ago */,
+                                                  'sum14gzc' /* 1m ago */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -682,7 +682,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                       0.0, 12.0, 0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      'yqm004xu' /* Lorem ipsum dolor sit amet, co... */,
+                                      '690an3mi' /* Lorem ipsum dolor sit amet, co... */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -705,7 +705,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'v33uqxl2' /* 8 */,
+                                            'eumoqpm5' /* 8 */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium,
@@ -716,7 +716,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                             4.0, 0.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'cn1mi2rc' /* Notes */,
+                                            'mxy49i67' /* Notes */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall,
@@ -801,7 +801,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                '01hso9ea' /* Randy Alcorn */,
+                                                                '3llaxvbi' /* Randy Alcorn */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -819,7 +819,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                                  'st5cr4ca' /* I'm not really sure about this... */,
+                                                                  '458sbgmp' /* I'm not really sure about this... */,
                                                                 ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
@@ -840,7 +840,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '5h4d8i39' /* a min ago */,
+                                                        '40k2fyh7' /* a min ago */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -920,7 +920,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                       ).then((value) => safeSetState(() {}));
                     },
                     text: FFLocalizations.of(context).getText(
-                      '8rmeqctf' /* Generate Quote */,
+                      '4fq7fiks' /* Generate Quote */,
                     ),
                     options: FFButtonOptions(
                       height: 44.0,
@@ -952,7 +952,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                       print('Button pressed ...');
                     },
                     text: FFLocalizations.of(context).getText(
-                      'ougpd8b8' /* View Company */,
+                      'yucj4oym' /* View Company */,
                     ),
                     options: FFButtonOptions(
                       height: 44.0,

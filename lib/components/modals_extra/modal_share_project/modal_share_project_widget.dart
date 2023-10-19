@@ -67,7 +67,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
 
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {
           _model.yourNameController?.text = FFLocalizations.of(context).getText(
-            'jzdr6k9x' /* https://project.flutterflow.io... */,
+            'qyahsq7s' /* https://project.flutterflow.io... */,
           );
         }));
   }
@@ -118,7 +118,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        '4tx2ru39' /* Share your project */,
+                        'c15vsald' /* Share your project */,
                       ),
                       style: FlutterFlowTheme.of(context).headlineMedium,
                     ),
@@ -128,7 +128,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                         EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 0.0, 0.0),
                     child: Text(
                       FFLocalizations.of(context).getText(
-                        'u6t74zsp' /* Your project has been created,... */,
+                        'tlfhtk63' /* Your project has been created,... */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium,
                     ),
@@ -233,7 +233,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            'a5x5r8z2' /* Randy Peterson */,
+                                                            'nlawzvwu' /* Randy Peterson */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -258,7 +258,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              '0hlgten0' /* name@domainname.com */,
+                                                              'q1znd0a9' /* name@domainname.com */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -347,7 +347,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            'wfv5m0m2' /* Randy Peterson */,
+                                                            'qclwso93' /* Randy Peterson */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -372,7 +372,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'z4rocyop' /* name@domainname.com */,
+                                                              'zh1i4vkp' /* name@domainname.com */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -461,7 +461,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                                           FFLocalizations.of(
                                                                   context)
                                                               .getText(
-                                                            'f9bgnoni' /* Randy Peterson */,
+                                                            'mz2leksu' /* Randy Peterson */,
                                                           ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
@@ -486,7 +486,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'bthcky9u' /* name@domainname.com */,
+                                                              'w70por4e' /* name@domainname.com */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -565,7 +565,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                                   child: Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'pgq1r8ah' /* Add User */,
+                                                      '97dfv2ni' /* Add User */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -618,7 +618,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                       decoration: InputDecoration(
                                         labelText:
                                             FFLocalizations.of(context).getText(
-                                          'x8i2mu80' /* Project Link */,
+                                          '9lk8lqh1' /* Project Link */,
                                         ),
                                         labelStyle: FlutterFlowTheme.of(context)
                                             .labelMedium,
@@ -712,7 +712,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'jz45d8an' /* Cancel */,
+                                    'fp20zdsk' /* Cancel */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,
@@ -751,7 +751,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'ubopypxm' /* Send Invites */,
+                                    'v7sb74qf' /* Send Invites */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 44.0,

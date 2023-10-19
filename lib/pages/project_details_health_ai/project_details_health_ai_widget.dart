@@ -251,7 +251,7 @@ class _ProjectDetailsHealthAiWidgetState
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'mxf4vrjw' /* HealthAi */,
+                                      'ips11she' /* HealthAi */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall,
@@ -262,7 +262,7 @@ class _ProjectDetailsHealthAiWidgetState
                                         0.0, 4.0, 0.0, 0.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'wsgonkz2' /* Client Acquisition for Q3 */,
+                                        '9h2iol2v' /* Client Acquisition for Q3 */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium,
@@ -285,7 +285,7 @@ class _ProjectDetailsHealthAiWidgetState
                           children: [
                             Text(
                               FFLocalizations.of(context).getText(
-                                'ynyuwhqo' /* Next Action */,
+                                'xzhlvsie' /* Next Action */,
                               ),
                               style: FlutterFlowTheme.of(context).bodyMedium,
                             ),
@@ -295,7 +295,7 @@ class _ProjectDetailsHealthAiWidgetState
                                     4.0, 0.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'zk7z07v0' /* Tuesday, 10:00am */,
+                                    't545lar5' /* Tuesday, 10:00am */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -323,7 +323,7 @@ class _ProjectDetailsHealthAiWidgetState
                                     16.0, 0.0, 16.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'xmahzs1v' /* In Progress */,
+                                    '6f3z1ksx' /* In Progress */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).bodyMedium,
@@ -384,7 +384,7 @@ class _ProjectDetailsHealthAiWidgetState
                                             0.0, 0.0, 24.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'ry6jvd0g' /* Contract Details */,
+                                            '1zahyd5z' /* Contract Details */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall,
@@ -395,7 +395,7 @@ class _ProjectDetailsHealthAiWidgetState
                                             0.0, 4.0, 24.0, 8.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'hu32scl5' /* $125,000 */,
+                                            '6l6w29kr' /* $125,000 */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium,
@@ -411,7 +411,7 @@ class _ProjectDetailsHealthAiWidgetState
                                   16.0, 0.0, 24.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'sfu6o269' /* Additional Details around this... */,
+                                  'ni6p1pl9' /* Additional Details around this... */,
                                 ),
                                 style: FlutterFlowTheme.of(context).labelMedium,
                               ),
@@ -498,7 +498,7 @@ class _ProjectDetailsHealthAiWidgetState
                                   print('Button pressed ...');
                                 },
                                 text: FFLocalizations.of(context).getText(
-                                  '5sv9a4ka' /* Mark as Complete */,
+                                  'cab4abp7' /* Mark as Complete */,
                                 ),
                                 options: FFButtonOptions(
                                   width: 170.0,
@@ -558,7 +558,7 @@ class _ProjectDetailsHealthAiWidgetState
                                   16.0, 0.0, 24.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'rrgcwkj1' /* Contract Details */,
+                                  'z3g44rpg' /* Contract Details */,
                                 ),
                                 style: FlutterFlowTheme.of(context).bodySmall,
                               ),
@@ -568,7 +568,7 @@ class _ProjectDetailsHealthAiWidgetState
                                   16.0, 4.0, 24.0, 8.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  '8bwk4oui' /* $67,000 */,
+                                  'geepq0sr' /* $67,000 */,
                                 ),
                                 style:
                                     FlutterFlowTheme.of(context).headlineMedium,
@@ -579,7 +579,7 @@ class _ProjectDetailsHealthAiWidgetState
                                   16.0, 0.0, 24.0, 0.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'p2hoxaq9' /* Additional Details around this... */,
+                                  'jrfjox4p' /* Additional Details around this... */,
                                 ),
                                 style: FlutterFlowTheme.of(context).labelMedium,
                               ),
@@ -666,7 +666,7 @@ class _ProjectDetailsHealthAiWidgetState
                                   print('Button pressed ...');
                                 },
                                 text: FFLocalizations.of(context).getText(
-                                  'ww95wm3k' /* Mark as Complete */,
+                                  'd4gp6vhk' /* Mark as Complete */,
                                 ),
                                 options: FFButtonOptions(
                                   width: 170.0,

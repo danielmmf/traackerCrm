@@ -131,7 +131,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'xai8ocja' /* Search */,
+                                '3xp537ju' /* Search */,
                               ),
                               style: FlutterFlowTheme.of(context).labelLarge,
                             ),
@@ -190,7 +190,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'yg07zi4c' /* Dashboard */,
+                                'jrw1f1q0' /* Dashboard */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .labelLarge
@@ -258,7 +258,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'lbojdpxg' /* Customers */,
+                                'tbnb3472' /* Customers */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .labelLarge
@@ -326,7 +326,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                '9pjba90p' /* Contracts */,
+                                '6ungvq12' /* Contracts */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .labelLarge
@@ -394,7 +394,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                '5s0d776i' /* Messages */,
+                                'w3fjcpok' /* Messages */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .labelLarge
@@ -462,7 +462,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                                 12.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                '01nu9cy0' /* Profile */,
+                                'wx629swm' /* Profile */,
                               ),
                               style: FlutterFlowTheme.of(context)
                                   .labelLarge

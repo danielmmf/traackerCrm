@@ -357,7 +357,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                         ),
                         Text(
                           FFLocalizations.of(context).getText(
-                            'l2xxy1gf' /* Get Started */,
+                            'wdu7057z' /* Get Started */,
                           ),
                           style: FlutterFlowTheme.of(context).displaySmall,
                         ).animateOnPageLoad(
@@ -367,7 +367,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                               0.0, 4.0, 0.0, 0.0),
                           child: Text(
                             FFLocalizations.of(context).getText(
-                              '59g0bt96' /* Use the form below to get star... */,
+                              'zr11kon4' /* Use the form below to get star... */,
                             ),
                             style: FlutterFlowTheme.of(context).labelLarge,
                           ).animateOnPageLoad(
@@ -388,13 +388,13 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                   decoration: InputDecoration(
                                     labelText:
                                         FFLocalizations.of(context).getText(
-                                      'seheok8a' /* Email Address */,
+                                      'fd73adag' /* Email Address */,
                                     ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelMedium,
                                     hintText:
                                         FFLocalizations.of(context).getText(
-                                      '0uknk55c' /* Enter your email here... */,
+                                      'p89k3a14' /* Enter your email here... */,
                                     ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -466,13 +466,13 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                   decoration: InputDecoration(
                                     labelText:
                                         FFLocalizations.of(context).getText(
-                                      'wwxuev1r' /* Password */,
+                                      'cni5lst0' /* Password */,
                                     ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelMedium,
                                     hintText:
                                         FFLocalizations.of(context).getText(
-                                      'eextb60x' /* Create your password... */,
+                                      '2dhu7mqs' /* Create your password... */,
                                     ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -554,12 +554,12 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                               obscureText: !_model.passwordConfirmVisibility,
                               decoration: InputDecoration(
                                 labelText: FFLocalizations.of(context).getText(
-                                  'kx2trk1o' /* Confirm Password */,
+                                  '796b9lga' /* Confirm Password */,
                                 ),
                                 labelStyle:
                                     FlutterFlowTheme.of(context).labelMedium,
                                 hintText: FFLocalizations.of(context).getText(
-                                  'k8c3y3u7' /* Create your password... */,
+                                  'k1r5lj4d' /* Create your password... */,
                                 ),
                                 hintStyle:
                                     FlutterFlowTheme.of(context).labelMedium,
@@ -659,7 +659,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                       'Main_Home', context.mounted);
                                 },
                                 text: FFLocalizations.of(context).getText(
-                                  '29ut49wi' /* Create Account */,
+                                  'a7c9y9no' /* Create Account */,
                                 ),
                                 options: FFButtonOptions(
                                   height: 52.0,
@@ -700,7 +700,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                             children: [
                               AutoSizeText(
                                 FFLocalizations.of(context).getText(
-                                  '07gxzzhq' /* Use a social platform to conti... */,
+                                  'fhdpzkkb' /* Use a social platform to conti... */,
                                 ),
                                 textAlign: TextAlign.center,
                                 style: FlutterFlowTheme.of(context).labelMedium,
@@ -818,7 +818,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                             children: [
                               Text(
                                 FFLocalizations.of(context).getText(
-                                  'ysqhbhpe' /* Already have an account? */,
+                                  'rpmkj1hs' /* Already have an account? */,
                                 ),
                                 style: FlutterFlowTheme.of(context).labelMedium,
                               ),
@@ -839,7 +839,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                   );
                                 },
                                 text: FFLocalizations.of(context).getText(
-                                  'ud92zl8z' /* Log In */,
+                                  'sg6l8oun' /* Log In */,
                                 ),
                                 options: FFButtonOptions(
                                   width: 70.0,

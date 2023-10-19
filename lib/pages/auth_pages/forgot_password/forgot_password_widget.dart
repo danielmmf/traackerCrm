@@ -137,7 +137,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
         ),
         title: Text(
           FFLocalizations.of(context).getText(
-            '3hcuc8v6' /* Forgot Password */,
+            '8rieop4b' /* Forgot Password */,
           ),
           style: FlutterFlowTheme.of(context).titleLarge,
         ),
@@ -161,7 +161,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                 padding: EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 16.0, 0.0),
                 child: Text(
                   FFLocalizations.of(context).getText(
-                    'sjjd1jb9' /* Don't remember your password? ... */,
+                    'ubsekd9b' /* Don't remember your password? ... */,
                   ),
                   style: FlutterFlowTheme.of(context).labelMedium,
                 ).animateOnPageLoad(animationsMap['textOnPageLoadAnimation']!),
@@ -174,11 +174,11 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                   obscureText: false,
                   decoration: InputDecoration(
                     labelText: FFLocalizations.of(context).getText(
-                      'tzm5opaa' /* Email Address */,
+                      'gnura8j0' /* Email Address */,
                     ),
                     labelStyle: FlutterFlowTheme.of(context).labelMedium,
                     hintText: FFLocalizations.of(context).getText(
-                      'uvsotzng' /* Please enter a valid email... */,
+                      '7hwsw7s4' /* Please enter a valid email... */,
                     ),
                     hintStyle: FlutterFlowTheme.of(context).labelMedium,
                     enabledBorder: OutlineInputBorder(
@@ -243,7 +243,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                     );
                   },
                   text: FFLocalizations.of(context).getText(
-                    '3sdzjivm' /* Send Reset Link */,
+                    'otctweqi' /* Send Reset Link */,
                   ),
                   options: FFButtonOptions(
                     width: 230.0,

@@ -110,7 +110,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                 automaticallyImplyLeading: false,
                 title: Text(
                   FFLocalizations.of(context).getText(
-                    'ym579y79' /* Dashboard */,
+                    'jwdfrt35' /* Dashboard */,
                   ),
                   style: FlutterFlowTheme.of(context).displaySmall.override(
                         fontFamily: 'Outfit',
@@ -177,7 +177,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        '8jlklje5' /* Messages */,
+                                        'qnqfyvz1' /* Messages */,
                                       ),
                                       textAlign: TextAlign.start,
                                       style: FlutterFlowTheme.of(context)
@@ -292,7 +292,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                 labelText:
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                  '13b6p0ri' /* Search messages here... */,
+                                                  'k601vtqy' /* Search messages here... */,
                                                 ),
                                                 labelStyle:
                                                     FlutterFlowTheme.of(context)
@@ -484,7 +484,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'm6h1ci8o' /* Randy Mcdonald */,
+                                                                        'nbu1dtt2' /* Randy Mcdonald */,
                                                                       ),
                                                                       textAlign:
                                                                           TextAlign
@@ -503,7 +503,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           Text(
                                                                         FFLocalizations.of(context)
                                                                             .getText(
-                                                                          '375pqg6v' /* This was really great, i'm so ... */,
+                                                                          'vgggjyqj' /* This was really great, i'm so ... */,
                                                                         ),
                                                                         textAlign:
                                                                             TextAlign.start,
@@ -529,7 +529,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           child:
                                                                               Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'cbtg39kg' /* Mon. July 3rd - 4:12pm */,
+                                                                              '17ez5vjy' /* Mon. July 3rd - 4:12pm */,
                                                                             ),
                                                                             textAlign:
                                                                                 TextAlign.start,
@@ -672,7 +672,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'yjl2z0ye' /* Randy Mcdonald */,
+                                                                        'egq2tbkx' /* Randy Mcdonald */,
                                                                       ),
                                                                       textAlign:
                                                                           TextAlign
@@ -691,7 +691,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           Text(
                                                                         FFLocalizations.of(context)
                                                                             .getText(
-                                                                          'uyqeyj1w' /* This was really great, i'm so ... */,
+                                                                          'qkbfucwh' /* This was really great, i'm so ... */,
                                                                         ),
                                                                         textAlign:
                                                                             TextAlign.start,
@@ -716,7 +716,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           child:
                                                                               Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'qdtk1psh' /* Mon. July 3rd - 4:12pm */,
+                                                                              'ei7tx6a0' /* Mon. July 3rd - 4:12pm */,
                                                                             ),
                                                                             textAlign:
                                                                                 TextAlign.start,
@@ -858,7 +858,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'udrcsj9r' /* Randy Mcdonald */,
+                                                                        '8ofjg4sd' /* Randy Mcdonald */,
                                                                       ),
                                                                       textAlign:
                                                                           TextAlign
@@ -877,7 +877,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           Text(
                                                                         FFLocalizations.of(context)
                                                                             .getText(
-                                                                          'ugrrfw8l' /* This was really great, i'm so ... */,
+                                                                          '3sqgvxgj' /* This was really great, i'm so ... */,
                                                                         ),
                                                                         textAlign:
                                                                             TextAlign.start,
@@ -902,7 +902,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           child:
                                                                               Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'ib4p9em6' /* Mon. July 3rd - 4:12pm */,
+                                                                              'fjprgw82' /* Mon. July 3rd - 4:12pm */,
                                                                             ),
                                                                             textAlign:
                                                                                 TextAlign.start,
@@ -1089,7 +1089,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           child: SelectionArea(
                                                                               child: AutoSizeText(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'r0cqh4ec' /* I am a freelancer and I need h... */,
+                                                                              'txrrokwd' /* I am a freelancer and I need h... */,
                                                                             ),
                                                                             textAlign:
                                                                                 TextAlign.start,
@@ -1114,7 +1114,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                     FFLocalizations.of(
                                                                             context)
                                                                         .getText(
-                                                                      'cu0iov54' /* Just Now */,
+                                                                      'syej3gwb' /* Just Now */,
                                                                     ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
@@ -1221,7 +1221,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                             child: SelectionArea(
                                                                                 child: Text(
                                                                               FFLocalizations.of(context).getText(
-                                                                                'it69akbs' /* Hey really love what you are d... */,
+                                                                                'l3qqc0tm' /* Hey really love what you are d... */,
                                                                               ),
                                                                               style: FlutterFlowTheme.of(context).labelMedium.override(
                                                                                     fontFamily: 'Plus Jakarta Sans',
@@ -1244,7 +1244,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'pu94epux' /* a few moments ago */,
+                                                                        'i27ynxxl' /* a few moments ago */,
                                                                       ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
@@ -1382,7 +1382,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                             child: AutoSizeText(
                                                                           FFLocalizations.of(context)
                                                                               .getText(
-                                                                            'yny0f2zl' /* This is my intro video */,
+                                                                            'utzpik6j' /* This is my intro video */,
                                                                           ),
                                                                           textAlign:
                                                                               TextAlign.start,
@@ -1410,7 +1410,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                   FFLocalizations.of(
                                                                           context)
                                                                       .getText(
-                                                                    'q2bmh3xq' /* Just Now */,
+                                                                    '3stbzsbj' /* Just Now */,
                                                                   ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
@@ -1549,7 +1549,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           child: SelectionArea(
                                                                               child: Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              '4lc34hro' /* Hey really love what you are d... */,
+                                                                              '7zrhthib' /* Hey really love what you are d... */,
                                                                             ),
                                                                             style: FlutterFlowTheme.of(context).labelMedium.override(
                                                                                   fontFamily: 'Plus Jakarta Sans',
@@ -1572,7 +1572,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                     FFLocalizations.of(
                                                                             context)
                                                                         .getText(
-                                                                      'rv9g1zmc' /* Just Now */,
+                                                                      'z3jwrht2' /* Just Now */,
                                                                     ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
@@ -1698,7 +1698,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           child: SelectionArea(
                                                                               child: Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'bbpyr9q4' /* Hey really love what you are d... */,
+                                                                              'wh4k3gz0' /* Hey really love what you are d... */,
                                                                             ),
                                                                             style: FlutterFlowTheme.of(context).labelMedium.override(
                                                                                   fontFamily: 'Plus Jakarta Sans',
@@ -1721,7 +1721,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                     FFLocalizations.of(
                                                                             context)
                                                                         .getText(
-                                                                      'jkyrunx9' /* Just Now */,
+                                                                      'ponrt0pp' /* Just Now */,
                                                                     ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
@@ -1821,7 +1821,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                            'p20c60zu' /* Start typing here... */,
+                                                            'sk12esw9' /* Start typing here... */,
                                                           ),
                                                           hintStyle:
                                                               FlutterFlowTheme.of(

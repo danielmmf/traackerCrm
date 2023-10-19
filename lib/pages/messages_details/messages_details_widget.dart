@@ -68,7 +68,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
           ),
           title: Text(
             FFLocalizations.of(context).getText(
-              '34fjbl14' /* Chat Details */,
+              'cpio4t5x' /* Chat Details */,
             ),
             style: FlutterFlowTheme.of(context).bodyLarge,
           ),
@@ -161,7 +161,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                                     child: AutoSizeText(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    '67tv84ak' /* I am a freelancer and I need h... */,
+                                                    'gswmbxbu' /* I am a freelancer and I need h... */,
                                                   ),
                                                   textAlign: TextAlign.start,
                                                   style: FlutterFlowTheme.of(
@@ -183,7 +183,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                             0.0, 4.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'ldze800m' /* Just Now */,
+                                            'jwvo5yaz' /* Just Now */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall,
@@ -253,7 +253,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                                     child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    '3yldlfk9' /* Hey really love what you are d... */,
+                                                    'qtwr9222' /* Hey really love what you are d... */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -277,7 +277,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                             0.0, 4.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'ozghv9ta' /* a few moments ago */,
+                                            'owe59xxj' /* a few moments ago */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall,
@@ -365,7 +365,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                                   child: AutoSizeText(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  '4b943uzi' /* This is my intro video */,
+                                                  'ffknpojy' /* This is my intro video */,
                                                 ),
                                                 textAlign: TextAlign.start,
                                                 style:
@@ -387,7 +387,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                           0.0, 4.0, 0.0, 0.0),
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'j5burt0n' /* Just Now */,
+                                          'k7q2ycr3' /* Just Now */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .labelSmall,
@@ -480,7 +480,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                                     child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'nve1gr7c' /* Hey really love what you are d... */,
+                                                    '14v46cb1' /* Hey really love what you are d... */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -504,7 +504,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                             0.0, 4.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'ttxn3h0c' /* Just Now */,
+                                            'jg2cseie' /* Just Now */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall,
@@ -588,7 +588,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                                     child: Text(
                                                   FFLocalizations.of(context)
                                                       .getText(
-                                                    'sj32bx47' /* Hey really love what you are d... */,
+                                                    'vzc5gjb0' /* Hey really love what you are d... */,
                                                   ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -612,7 +612,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                             0.0, 4.0, 0.0, 0.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'mwdx1wqh' /* Just Now */,
+                                            'ecbw0cdt' /* Just Now */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall,
@@ -681,7 +681,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                 labelStyle:
                                     FlutterFlowTheme.of(context).labelMedium,
                                 hintText: FFLocalizations.of(context).getText(
-                                  'buzhmfr6' /* Start typing here... */,
+                                  'd2q0be2k' /* Start typing here... */,
                                 ),
                                 hintStyle:
                                     FlutterFlowTheme.of(context).labelMedium,

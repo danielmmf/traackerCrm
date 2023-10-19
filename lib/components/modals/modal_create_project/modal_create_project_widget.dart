@@ -154,7 +154,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                             0.0, 0.0, 0.0, 4.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            '5tdm3cpv' /* Create Project */,
+                                            'mk56sn2k' /* Create Project */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .headlineMedium,
@@ -165,7 +165,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                             0.0, 0.0, 0.0, 8.0),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'vlg015ed' /* Please enter the information b... */,
+                                            'ngmd2srv' /* Please enter the information b... */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge,
@@ -239,7 +239,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'dqo5yhdb' /* Add Photo */,
+                                                  '0ishitvf' /* Add Photo */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -283,7 +283,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                               obscureText: false,
                               decoration: InputDecoration(
                                 hintText: FFLocalizations.of(context).getText(
-                                  '426hn69e' /* Project Name */,
+                                  'jsmw3pf1' /* Project Name */,
                                 ),
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .headlineMedium
@@ -354,7 +354,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                 labelStyle:
                                     FlutterFlowTheme.of(context).labelLarge,
                                 hintText: FFLocalizations.of(context).getText(
-                                  'uqziqhmg' /* Description here... */,
+                                  '0ifh4wkh' /* Description here... */,
                                 ),
                                 hintStyle:
                                     FlutterFlowTheme.of(context).labelLarge,
@@ -418,7 +418,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                     print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'elbpjfvc' /* Create Project */,
+                                    'kkg16lkv' /* Create Project */,
                                   ),
                                   options: FFButtonOptions(
                                     height: 52.0,
