@@ -2087,27 +2087,27 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // TopNav1
   {
-    'h8lyghhx': {
+    'ja8cgba9': {
       'en': 'Home',
       'es': '',
       'pt': '',
     },
-    '5j8suox7': {
+    'rinnf3n9': {
       'en': 'Chats',
       'es': '',
       'pt': '',
     },
-    'gbj21kwj': {
+    'ekj93dnh': {
       'en': 'Projects',
       'es': '',
       'pt': '',
     },
-    '5jbkhaeh': {
+    'wvsxdjaf': {
       'en': 'Andrew D.',
       'es': '',
       'pt': '',
     },
-    '0mo2sbtz': {
+    'ckp7kl3v': {
       'en': '@andrewd',
       'es': '',
       'pt': '',

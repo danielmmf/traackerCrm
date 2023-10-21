@@ -5,8 +5,8 @@ import '../base_auth_user_provider.dart';
 
 export '../base_auth_user_provider.dart';
 
-class TraackerCrmFirebaseUser extends BaseAuthUser {
-  TraackerCrmFirebaseUser(this.user);
+class WhatsCrmFirebaseUser extends BaseAuthUser {
+  WhatsCrmFirebaseUser(this.user);
   User? user;
   bool get loggedIn => user != null;
 
@@ -54,17 +54,17 @@ class TraackerCrmFirebaseUser extends BaseAuthUser {
   static BaseAuthUser fromUserCredential(UserCredential userCredential) =>
       fromFirebaseUser(userCredential.user);
   static BaseAuthUser fromFirebaseUser(User? user) =>
-      TraackerCrmFirebaseUser(user);
+      WhatsCrmFirebaseUser(user);
 }
 
-Stream<BaseAuthUser> traackerCrmFirebaseUserStream() => FirebaseAuth.instance
+Stream<BaseAuthUser> whatsCrmFirebaseUserStream() => FirebaseAuth.instance
         .authStateChanges()
         .debounce((user) => user == null && !loggedIn
             ? TimerStream(true, const Duration(seconds: 1))
             : Stream.value(user))
         .map<BaseAuthUser>(
       (user) {
-        currentUser = TraackerCrmFirebaseUser(user);
+        currentUser = WhatsCrmFirebaseUser(user);
         return currentUser!;
       },
     );

@@ -355,10 +355,10 @@ class FFRoute {
               : builder(context, ffParams);
           final child = appStateNotifier.loading
               ? Container(
-                  color: FlutterFlowTheme.of(context).primary,
+                  color: Colors.transparent,
                   child: Image.asset(
-                    'assets/images/splash_app_CRM_alt@2x.png',
-                    fit: BoxFit.fitHeight,
+                    'assets/images/Screenshot_from_2023-10-21_12-45-41.png',
+                    fit: BoxFit.cover,
                   ),
                 )
               : page;
@@ -396,7 +396,11 @@ class TransitionInfo {
   final Duration duration;
   final Alignment? alignment;
 
-  static TransitionInfo appDefault() => TransitionInfo(hasTransition: false);
+  static TransitionInfo appDefault() => TransitionInfo(
+        hasTransition: true,
+        transitionType: PageTransitionType.leftToRight,
+        duration: Duration(milliseconds: 300),
+      );
 }
 
 class RootPageContext {

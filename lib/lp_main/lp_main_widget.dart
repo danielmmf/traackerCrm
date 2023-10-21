@@ -79,6 +79,8 @@ class _LpMainWidgetState extends State<LpMainWidget> {
                 highlightColor: Colors.transparent,
                 onTap: () async {
                   logFirebaseEvent('LP_MAIN_PAGE_Icon_ol6di01w_ON_TAP');
+
+                  context.pushNamed('auth_Login');
                 },
                 child: Icon(
                   Icons.settings_outlined,

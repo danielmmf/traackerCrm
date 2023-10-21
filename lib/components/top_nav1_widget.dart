@@ -124,7 +124,7 @@ class _TopNav1WidgetState extends State<TopNav1Widget> {
                                         12.0, 0.0, 0.0, 0.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        'h8lyghhx' /* Home */,
+                                        'ja8cgba9' /* Home */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .titleSmall
@@ -170,7 +170,7 @@ class _TopNav1WidgetState extends State<TopNav1Widget> {
                                         12.0, 0.0, 0.0, 0.0),
                                     child: Text(
                                       FFLocalizations.of(context).getText(
-                                        '5j8suox7' /* Chats */,
+                                        'rinnf3n9' /* Chats */,
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge,
@@ -222,7 +222,7 @@ class _TopNav1WidgetState extends State<TopNav1Widget> {
                                       },
                                       child: Text(
                                         FFLocalizations.of(context).getText(
-                                          'gbj21kwj' /* Projects */,
+                                          'ekj93dnh' /* Projects */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge,
@@ -296,14 +296,14 @@ class _TopNav1WidgetState extends State<TopNav1Widget> {
                                 SelectionArea(
                                     child: Text(
                                   FFLocalizations.of(context).getText(
-                                    '5jbkhaeh' /* Andrew D. */,
+                                    'wvsxdjaf' /* Andrew D. */,
                                   ),
                                   style: FlutterFlowTheme.of(context).bodyLarge,
                                 )),
                                 SelectionArea(
                                     child: Text(
                                   FFLocalizations.of(context).getText(
-                                    '0mo2sbtz' /* @andrewd */,
+                                    'ckp7kl3v' /* @andrewd */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).labelSmall,

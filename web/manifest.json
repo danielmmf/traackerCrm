@@ -1,6 +1,6 @@
 {
-    "name": "TraackerCrm",
-    "short_name": "TraackerCrm",
+    "name": "WhatsCrm",
+    "short_name": "WhatsCrm",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
