@@ -42,8 +42,8 @@ class _MainLogoSmallWidgetState extends State<MainLogoSmallWidget> {
   Widget build(BuildContext context) {
     return Image.asset(
       Theme.of(context).brightness == Brightness.dark
-          ? 'assets/images/logo_newforceDark_alt@3x.png'
-          : 'assets/images/logo_newforceLight_alt@3x.png',
+          ? 'assets/images/Screenshot_from_2023-10-21_11-53-18.png'
+          : 'assets/images/Screenshot_from_2023-10-21_11-50-49.png',
       width: 170.0,
       height: 44.0,
       fit: BoxFit.fitWidth,
