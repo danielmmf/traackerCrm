@@ -987,11 +987,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Charlar',
       'pt': 'Bater papo',
     },
-    '79dv5qt3': {
-      'en': 'Call',
-      'es': 'Llamar',
-      'pt': 'Chamar',
-    },
     'r2232slg': {
       'en': 'Doctor Bio',
       'es': 'Biografía del médico',
