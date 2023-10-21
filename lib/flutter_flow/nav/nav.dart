@@ -79,13 +79,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) =>
-          appStateNotifier.loggedIn ? NavBarPage() : AuthLoginWidget(),
+          appStateNotifier.loggedIn ? NavBarPage() : LpMainWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) =>
-              appStateNotifier.loggedIn ? NavBarPage() : AuthLoginWidget(),
+              appStateNotifier.loggedIn ? NavBarPage() : LpMainWidget(),
           routes: [
             FFRoute(
               name: 'auth_Login',
@@ -161,6 +161,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'messagesDetails',
               path: 'messagesDetails',
               builder: (context, params) => MessagesDetailsWidget(),
+            ),
+            FFRoute(
+              name: 'LandPage',
+              path: 'landPage',
+              builder: (context, params) => LandPageWidget(),
+            ),
+            FFRoute(
+              name: 'LpMain',
+              path: 'lpMain',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'LpMain')
+                  : LpMainWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),
@@ -329,7 +341,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.location);
-            return '/authLogin';
+            return '/lpMain';
           }
           return null;
         },

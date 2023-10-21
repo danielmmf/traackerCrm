@@ -22,3 +22,5 @@ export '/pages/project_details/project_details_widget.dart'
 export '/pages/search_page/search_page_widget.dart' show SearchPageWidget;
 export '/pages/messages_details/messages_details_widget.dart'
     show MessagesDetailsWidget;
+export '/land_page/land_page_widget.dart' show LandPageWidget;
+export '/lp_main/lp_main_widget.dart' show LpMainWidget;

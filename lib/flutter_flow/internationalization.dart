@@ -904,6 +904,128 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Lar',
     },
   },
+  // LandPage
+  {
+    'sd0bl1d0': {
+      'en': 'Robo de Atendimento via WhatsApp',
+      'es': 'Robo de Atención vía WhatsApp',
+      'pt': 'Robô de Atendimento via WhatsApp',
+    },
+    'aq7bmhgy': {
+      'en': 'Atendendo automaticamente',
+      'es': 'Atendiendo automáticamente',
+      'pt': 'Atendendo automaticamente',
+    },
+    '72runiw9': {
+      'en': 'Primary Care, Intentional Medicine',
+      'es': 'Atención Primaria, Medicina Intencional',
+      'pt': 'Atenção Primária, Medicina Intencional',
+    },
+    'ykr1gff1': {
+      'en': 'Chat',
+      'es': 'Charlar',
+      'pt': 'Bater papo',
+    },
+    'e4h9ziu1': {
+      'en': 'Call',
+      'es': 'Llamar',
+      'pt': 'Chamar',
+    },
+    'e7894dkt': {
+      'en': 'Doctor Bio',
+      'es': 'Biografía del médico',
+      'pt': 'Doutor Biografia',
+    },
+    'ynytcyo2': {
+      'en':
+          'Dr. Will Hobbiton is a board-certified internal medicine specialist with over 15 years of experience treating patients in both hospital and private practice settings. She is passionate about preventive care and dedicated to providing her patients with the highest level of personalized medical attention, while staying updated on the latest advancements in her field.',
+      'es':
+          'El Dr. Will Hobbiton es un especialista en medicina interna certificado con más de 15 años de experiencia en el tratamiento de pacientes tanto en hospitales como en consultorios privados. Le apasiona la atención preventiva y se dedica a brindar a sus pacientes el más alto nivel de atención médica personalizada, mientras se mantiene actualizada sobre los últimos avances en su campo.',
+      'pt':
+          'Will Hobbiton é um especialista em medicina interna certificado com mais de 15 anos de experiência no tratamento de pacientes em hospitais e consultórios particulares. Ela é apaixonada por cuidados preventivos e dedicada a fornecer aos seus pacientes o mais alto nível de atendimento médico personalizado, ao mesmo tempo em que se mantém atualizada sobre os últimos avanços em sua área.',
+    },
+    'hxt4hm23': {
+      'en': 'Book Appointment',
+      'es': 'Reservar una cita',
+      'pt': 'Anotação de livro',
+    },
+    'bhw7cild': {
+      'en': 'Favorite Doctor',
+      'es': 'Doctor favorito',
+      'pt': 'Médico favorito',
+    },
+    'rbzzwaby': {
+      'en': 'Details',
+      'es': 'Detalles',
+      'pt': 'Detalhes',
+    },
+    '7wz88qzu': {
+      'en': 'Home',
+      'es': 'Hogar',
+      'pt': 'Lar',
+    },
+  },
+  // LpMain
+  {
+    'f34yntvg': {
+      'en': 'Primary Physician',
+      'es': 'Doctor principal',
+      'pt': 'robo de atendimento',
+    },
+    'evgd6j02': {
+      'en': 'Dr. Will Hobbiton',
+      'es': 'Dr. Will Hobbiton',
+      'pt': 'Automatico via WhatsApp',
+    },
+    'gyx8c78o': {
+      'en': 'Primary Care, Intentional Medicine',
+      'es': 'Atención Primaria, Medicina Intencional',
+      'pt': 'Sabe tudo sobre o seu negocio',
+    },
+    '3qdcwjn2': {
+      'en': 'Chat',
+      'es': 'Charlar',
+      'pt': 'Bater papo',
+    },
+    '79dv5qt3': {
+      'en': 'Call',
+      'es': 'Llamar',
+      'pt': 'Chamar',
+    },
+    'r2232slg': {
+      'en': 'Doctor Bio',
+      'es': 'Biografía del médico',
+      'pt': 'Como funciona:',
+    },
+    'gcev8z2w': {
+      'en':
+          'O Nosso robo conectado ao um GPT pode aprender sobre a sua empresa e fazer um atendimento automatico de qualidade e de alta perfomance. O robo consegue ver usuarios , produtos e serviços , pode abrir chamados , cobrar pix e validar se foi pago!  Consegue consultar uma agenda ou ler documentos de referencia.',
+      'es':
+          'O Nosso robo conectado ao um GPT pode aprender sobre a sua empresa e fazer um atendimento automatico de qualidade e de alta perfomance. O robo consegue ver usuarios , produtos e serviços , pode abrir chamados , cobrar pix e validar se foi pago!  Consegue consultar uma agenda ou ler documentos de referencia.',
+      'pt':
+          'O Nosso robo conectado ao um GPT pode aprender sobre a sua empresa e fazer um atendimento automatico de qualidade e de alta perfomance. O robo consegue ver usuarios , produtos e serviços , pode abrir chamados , cobrar pix e validar se foi pago!  Consegue consultar uma agenda ou ler documentos de referencia.',
+    },
+    'xy5qdx1k': {
+      'en': 'Book Appointment',
+      'es': 'Reservar una cita',
+      'pt': 'Agendar um atendimento',
+    },
+    '6uoe5c22': {
+      'en': 'Favorite Doctor',
+      'es': 'Doctor favorito',
+      'pt': 'Compartilhe com alguém ',
+    },
+    'em2fvxwo': {
+      'en': 'Details',
+      'es': 'Detalles',
+      'pt': 'WhatsCrm',
+    },
+    'nl50i4xs': {
+      'en': 'Home',
+      'es': 'Hogar',
+      'pt': 'Lar',
+    },
+  },
   // modal_success
   {
     'o4z6h2al': {
@@ -1961,6 +2083,34 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Save Changes',
       'es': 'Guardar cambios',
       'pt': 'Salvar alterações',
+    },
+  },
+  // TopNav1
+  {
+    'h8lyghhx': {
+      'en': 'Home',
+      'es': '',
+      'pt': '',
+    },
+    '5j8suox7': {
+      'en': 'Chats',
+      'es': '',
+      'pt': '',
+    },
+    'gbj21kwj': {
+      'en': 'Projects',
+      'es': '',
+      'pt': '',
+    },
+    '5jbkhaeh': {
+      'en': 'Andrew D.',
+      'es': '',
+      'pt': '',
+    },
+    '0mo2sbtz': {
+      'en': '@andrewd',
+      'es': '',
+      'pt': '',
     },
   },
   // Miscellaneous
