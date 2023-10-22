@@ -214,7 +214,7 @@ class _LpMainWidgetState extends State<LpMainWidget> {
                                       logFirebaseEvent(
                                           'LP_MAIN_PAGE_Row_03ccwcm2_ON_TAP');
                                       await launchURL(
-                                          'https://wa.me/5511939418913');
+                                          'https://wa.me/5511939418913?text=Gostaria%20de%20saber%20mais%20sobre%20o%20Robo%20de%20atendimento');
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
