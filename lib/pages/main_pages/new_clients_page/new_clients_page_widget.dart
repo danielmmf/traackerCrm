@@ -106,7 +106,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                   16.0, 16.0, 0.0, 4.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'cy43ni0e' /* All Tasks */,
+                                  'u6707ezi' /* All Tasks */,
                                 ),
                                 style:
                                     FlutterFlowTheme.of(context).headlineMedium,
@@ -117,7 +117,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                 16.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'qbtut609' /* Below is a summary of tasks. */,
+                                'lueyfojd' /* Below is a summary of tasks. */,
                               ),
                               style: FlutterFlowTheme.of(context).labelMedium,
                             ),
@@ -136,19 +136,19 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                     options: [
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        'blv99q3r' /* All */,
+                                        'thap8q93' /* All */,
                                       )),
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        'swaf6wmx' /* Pending */,
+                                        'hwdopu1z' /* Pending */,
                                       )),
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        'aslxqiqk' /* In Progress */,
+                                        'u3w8c041' /* In Progress */,
                                       )),
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        'fzy6c8ef' /* Completed */,
+                                        '7e8n6pek' /* Completed */,
                                       ))
                                     ],
                                     onChanged: (val) => setState(() =>
@@ -203,7 +203,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             FormFieldController<List<String>>(
                                       [
                                         FFLocalizations.of(context).getText(
-                                          '6r57k3q7' /* All */,
+                                          '9rne482b' /* All */,
                                         )
                                       ],
                                     ),
@@ -226,7 +226,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                         decoration: InputDecoration(
                                           labelText: FFLocalizations.of(context)
                                               .getText(
-                                            'kbcrywdw' /* Search all tasks... */,
+                                            'owxi2nve' /* Search all tasks... */,
                                           ),
                                           labelStyle:
                                               FlutterFlowTheme.of(context)
@@ -323,7 +323,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             AlignmentDirectional(-1.00, 0.00),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'oz99834x' /* Task Name */,
+                                            'pi4roehm' /* Task Name */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall,
@@ -341,7 +341,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                   4.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'yles6vmk' /* Assigned To */,
+                                              'ewzu9nkl' /* Assigned To */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelSmall,
@@ -360,7 +360,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                               AlignmentDirectional(-1.00, 0.00),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              '38awr0mh' /* Due Date */,
+                                              '1qtiiepz' /* Due Date */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelSmall,
@@ -383,7 +383,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  '1geh9p7s' /* Status */,
+                                                  'a88xlxpc' /* Status */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -440,7 +440,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                '7kvtitet' /* Product Testing */,
+                                                'g5tuckij' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -499,7 +499,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      '7vrusaje' /* Randy Rodriguez */,
+                                                      'tssau2bz' /* Randy Rodriguez */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -514,7 +514,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'hd7yvlxt' /* randy@domainname.com */,
+                                                        'twfat42p' /* randy@domainname.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -542,7 +542,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'klut3jbh' /* June 5th */,
+                                                'x0ba7rvn' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -583,7 +583,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'ib91lzxq' /* In Progress */,
+                                                        '1ohv71cc' /* In Progress */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -632,7 +632,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'wfmc19ot' /* Product Testing */,
+                                                'azzrmp1i' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -691,7 +691,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'afywtpxe' /* Emily Rambo */,
+                                                      '2jkyn52u' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -706,7 +706,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'vw5dxb37' /* emily@domain.com */,
+                                                        'ukhkoqok' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -734,7 +734,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'ozbcavoe' /* June 5th */,
+                                                'cycn24ll' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -775,7 +775,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '4losisno' /* Pending */,
+                                                        'mv7dojw8' /* Pending */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -824,7 +824,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'vb7w7eog' /* Product Testing */,
+                                                'rlylrwgk' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -883,7 +883,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      '151ou6fk' /* Emily Rambo */,
+                                                      'fe35jc17' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -898,7 +898,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'z96t4xat' /* emily@domain.com */,
+                                                        'm16abrpx' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -926,7 +926,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'xtlh4017' /* June 5th */,
+                                                'r3kunorh' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -967,7 +967,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'f74fz911' /* Pending */,
+                                                        'zovd7t7k' /* Pending */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1016,7 +1016,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'hvb7vyad' /* Product Testing */,
+                                                '49b081fl' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1075,7 +1075,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      '429bf1i4' /* Emily Rambo */,
+                                                      '1s6hg0ah' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1090,7 +1090,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'kmaf8c0t' /* emily@domain.com */,
+                                                        'a1mpgzpj' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1118,7 +1118,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'l23xhiuo' /* June 5th */,
+                                                'a3sojscz' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1159,7 +1159,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'sajfcie0' /* In Progress */,
+                                                        'lz56f4bc' /* In Progress */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1208,7 +1208,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                '067d7bnr' /* Product Testing */,
+                                                'pbmx5szz' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1267,7 +1267,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'o6iiek89' /* Emily Rambo */,
+                                                      'k89mhlxa' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1282,7 +1282,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'utv4fka1' /* emily@domain.com */,
+                                                        '8l98i2z6' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1310,7 +1310,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'tt4t1rfk' /* June 5th */,
+                                                'spnvmfc9' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1351,7 +1351,7 @@ class _NewClientsPageWidgetState extends State<NewClientsPageWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'kfm0j6yg' /* Pending */,
+                                                        'e2rry0r5' /* Pending */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(

@@ -65,7 +65,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
           automaticallyImplyLeading: false,
           title: Text(
             FFLocalizations.of(context).getText(
-              '6u530xnm' /* All Tasks */,
+              '6uh6bigk' /* All Tasks */,
             ),
             style: FlutterFlowTheme.of(context).headlineMedium,
           ),
@@ -137,7 +137,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                     12.0, 0.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    'ffl6p2h1' /* check.io */,
+                                    'b7bw90ry' /* check.io */,
                                   ),
                                   style: FlutterFlowTheme.of(context)
                                       .headlineMedium,
@@ -161,7 +161,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                     16.0, 12.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    't9j8pj84' /* Platform Navigation */,
+                                    'lj2muuqu' /* Platform Navigation */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).labelMedium,
@@ -199,7 +199,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   12.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'wnl5t6ui' /* Dashboard */,
+                                              '3irpbqea' /* Dashboard */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium,
@@ -242,7 +242,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   12.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'jsorgdhe' /* Chats */,
+                                              'migpkkoi' /* Chats */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium,
@@ -286,7 +286,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'qmfpvmvl' /* All Tasks */,
+                                                '05siwf9y' /* All Tasks */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -311,7 +311,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'dx4cduit' /* 12 */,
+                                                  'fuzq5ou3' /* 12 */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -364,7 +364,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   12.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'p0wm2y4k' /* Projects */,
+                                              '7g4ofv5t' /* Projects */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium,
@@ -380,7 +380,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                     16.0, 0.0, 0.0, 0.0),
                                 child: Text(
                                   FFLocalizations.of(context).getText(
-                                    '4a45ogxj' /* Settings */,
+                                    'hm98v12a' /* Settings */,
                                   ),
                                   style:
                                       FlutterFlowTheme.of(context).labelMedium,
@@ -418,7 +418,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   12.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              '0j0sz53l' /* Billing */,
+                                              'munxs7i9' /* Billing */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium,
@@ -461,7 +461,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   12.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'zlkyu17e' /* Explore */,
+                                              '44s8s544' /* Explore */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium,
@@ -475,238 +475,222 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                             ].divide(SizedBox(height: 12.0)),
                           ),
                         ),
-                        if (FFAppState().navOpen == true)
-                          Align(
-                            alignment: AlignmentDirectional(0.00, -1.00),
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 8.0, 0.0, 16.0),
-                              child: Container(
-                                width: 250.0,
-                                height: 50.0,
-                                decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
-                                      .primaryBackground,
-                                  borderRadius: BorderRadius.circular(12.0),
-                                  border: Border.all(
-                                    color:
-                                        FlutterFlowTheme.of(context).alternate,
-                                    width: 1.0,
-                                  ),
+                        Align(
+                          alignment: AlignmentDirectional(0.00, -1.00),
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 8.0, 0.0, 16.0),
+                            child: Container(
+                              width: 250.0,
+                              height: 50.0,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.of(context)
+                                    .primaryBackground,
+                                borderRadius: BorderRadius.circular(12.0),
+                                border: Border.all(
+                                  color: FlutterFlowTheme.of(context).alternate,
+                                  width: 1.0,
                                 ),
-                                child: Visibility(
-                                  visible: FFAppState().navOpen == true,
-                                  child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        4.0, 4.0, 4.0, 4.0),
-                                    child: Row(
-                                      mainAxisSize: MainAxisSize.max,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      children: [
-                                        Expanded(
-                                          child: InkWell(
-                                            splashColor: Colors.transparent,
-                                            focusColor: Colors.transparent,
-                                            hoverColor: Colors.transparent,
-                                            highlightColor: Colors.transparent,
-                                            onTap: () async {
-                                              logFirebaseEvent(
-                                                  'CLIENTS_PAGE_Container_l0i9uw4b_ON_TAP');
-                                              setDarkModeSetting(
-                                                  context, ThemeMode.light);
-                                            },
-                                            child: Container(
-                                              width: 115.0,
-                                              height: 100.0,
-                                              decoration: BoxDecoration(
+                              ),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    4.0, 4.0, 4.0, 4.0),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  children: [
+                                    Expanded(
+                                      child: InkWell(
+                                        splashColor: Colors.transparent,
+                                        focusColor: Colors.transparent,
+                                        hoverColor: Colors.transparent,
+                                        highlightColor: Colors.transparent,
+                                        onTap: () async {
+                                          logFirebaseEvent(
+                                              'CLIENTS_PAGE_Container_l0i9uw4b_ON_TAP');
+                                          setDarkModeSetting(
+                                              context, ThemeMode.light);
+                                        },
+                                        child: Container(
+                                          width: 115.0,
+                                          height: 100.0,
+                                          decoration: BoxDecoration(
+                                            color: Theme.of(context)
+                                                        .brightness ==
+                                                    Brightness.light
+                                                ? FlutterFlowTheme.of(context)
+                                                    .secondaryBackground
+                                                : FlutterFlowTheme.of(context)
+                                                    .primaryBackground,
+                                            borderRadius:
+                                                BorderRadius.circular(10.0),
+                                            border: Border.all(
+                                              color: valueOrDefault<Color>(
+                                                Theme.of(context).brightness ==
+                                                        Brightness.light
+                                                    ? FlutterFlowTheme.of(
+                                                            context)
+                                                        .alternate
+                                                    : FlutterFlowTheme.of(
+                                                            context)
+                                                        .primaryBackground,
+                                                FlutterFlowTheme.of(context)
+                                                    .alternate,
+                                              ),
+                                              width: 1.0,
+                                            ),
+                                          ),
+                                          child: Row(
+                                            mainAxisSize: MainAxisSize.max,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Icon(
+                                                Icons.wb_sunny_rounded,
                                                 color: Theme.of(context)
                                                             .brightness ==
                                                         Brightness.light
                                                     ? FlutterFlowTheme.of(
                                                             context)
-                                                        .secondaryBackground
+                                                        .primaryText
+                                                    : FlutterFlowTheme.of(
+                                                            context)
+                                                        .secondaryText,
+                                                size: 16.0,
+                                              ),
+                                              Padding(
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        4.0, 0.0, 0.0, 0.0),
+                                                child: Text(
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'ghrivs3y' /* Light Mode */,
+                                                  ),
+                                                  style:
+                                                      FlutterFlowTheme.of(
+                                                              context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            fontFamily:
+                                                                'Plus Jakarta Sans',
+                                                            color: Theme.of(context)
+                                                                        .brightness ==
+                                                                    Brightness
+                                                                        .light
+                                                                ? FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .primaryText
+                                                                : FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                          ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: InkWell(
+                                        splashColor: Colors.transparent,
+                                        focusColor: Colors.transparent,
+                                        hoverColor: Colors.transparent,
+                                        highlightColor: Colors.transparent,
+                                        onTap: () async {
+                                          logFirebaseEvent(
+                                              'CLIENTS_PAGE_Container_t5q2clxe_ON_TAP');
+                                          setDarkModeSetting(
+                                              context, ThemeMode.dark);
+                                        },
+                                        child: Container(
+                                          width: 115.0,
+                                          height: 100.0,
+                                          decoration: BoxDecoration(
+                                            color: Theme.of(context)
+                                                        .brightness ==
+                                                    Brightness.dark
+                                                ? FlutterFlowTheme.of(context)
+                                                    .secondaryBackground
+                                                : FlutterFlowTheme.of(context)
+                                                    .primaryBackground,
+                                            borderRadius:
+                                                BorderRadius.circular(10.0),
+                                            border: Border.all(
+                                              color: valueOrDefault<Color>(
+                                                Theme.of(context).brightness ==
+                                                        Brightness.dark
+                                                    ? FlutterFlowTheme.of(
+                                                            context)
+                                                        .alternate
                                                     : FlutterFlowTheme.of(
                                                             context)
                                                         .primaryBackground,
-                                                borderRadius:
-                                                    BorderRadius.circular(10.0),
-                                                border: Border.all(
-                                                  color: valueOrDefault<Color>(
-                                                    Theme.of(context)
-                                                                .brightness ==
-                                                            Brightness.light
-                                                        ? FlutterFlowTheme.of(
-                                                                context)
-                                                            .alternate
-                                                        : FlutterFlowTheme.of(
-                                                                context)
-                                                            .primaryBackground,
-                                                    FlutterFlowTheme.of(context)
-                                                        .alternate,
-                                                  ),
-                                                  width: 1.0,
-                                                ),
+                                                FlutterFlowTheme.of(context)
+                                                    .primaryBackground,
                                               ),
-                                              child: Row(
-                                                mainAxisSize: MainAxisSize.max,
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment.center,
-                                                children: [
-                                                  Icon(
-                                                    Icons.wb_sunny_rounded,
-                                                    color: Theme.of(context)
-                                                                .brightness ==
-                                                            Brightness.light
-                                                        ? FlutterFlowTheme.of(
-                                                                context)
-                                                            .primaryText
-                                                        : FlutterFlowTheme.of(
-                                                                context)
-                                                            .secondaryText,
-                                                    size: 16.0,
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(4.0, 0.0,
-                                                                0.0, 0.0),
-                                                    child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'uev4e0dd' /* Light Mode */,
-                                                      ),
-                                                      style:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                fontFamily:
-                                                                    'Plus Jakarta Sans',
-                                                                color: Theme.of(context)
-                                                                            .brightness ==
-                                                                        Brightness
-                                                                            .light
-                                                                    ? FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .primaryText
-                                                                    : FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .secondaryText,
-                                                              ),
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
+                                              width: 1.0,
                                             ),
                                           ),
-                                        ),
-                                        Expanded(
-                                          child: InkWell(
-                                            splashColor: Colors.transparent,
-                                            focusColor: Colors.transparent,
-                                            hoverColor: Colors.transparent,
-                                            highlightColor: Colors.transparent,
-                                            onTap: () async {
-                                              logFirebaseEvent(
-                                                  'CLIENTS_PAGE_Container_t5q2clxe_ON_TAP');
-                                              setDarkModeSetting(
-                                                  context, ThemeMode.dark);
-                                            },
-                                            child: Container(
-                                              width: 115.0,
-                                              height: 100.0,
-                                              decoration: BoxDecoration(
+                                          child: Row(
+                                            mainAxisSize: MainAxisSize.max,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Icon(
+                                                Icons.nightlight_round,
                                                 color: Theme.of(context)
                                                             .brightness ==
                                                         Brightness.dark
                                                     ? FlutterFlowTheme.of(
                                                             context)
-                                                        .secondaryBackground
+                                                        .primaryText
                                                     : FlutterFlowTheme.of(
                                                             context)
-                                                        .primaryBackground,
-                                                borderRadius:
-                                                    BorderRadius.circular(10.0),
-                                                border: Border.all(
-                                                  color: valueOrDefault<Color>(
-                                                    Theme.of(context)
-                                                                .brightness ==
-                                                            Brightness.dark
-                                                        ? FlutterFlowTheme.of(
-                                                                context)
-                                                            .alternate
-                                                        : FlutterFlowTheme.of(
-                                                                context)
-                                                            .primaryBackground,
-                                                    FlutterFlowTheme.of(context)
-                                                        .primaryBackground,
+                                                        .secondaryText,
+                                                size: 16.0,
+                                              ),
+                                              Padding(
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        4.0, 0.0, 0.0, 0.0),
+                                                child: Text(
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'qmjewpkv' /* Dark Mode */,
                                                   ),
-                                                  width: 1.0,
+                                                  style:
+                                                      FlutterFlowTheme.of(
+                                                              context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            fontFamily:
+                                                                'Plus Jakarta Sans',
+                                                            color: Theme.of(context)
+                                                                        .brightness ==
+                                                                    Brightness
+                                                                        .dark
+                                                                ? FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .primaryText
+                                                                : FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .secondaryText,
+                                                          ),
                                                 ),
                                               ),
-                                              child: Row(
-                                                mainAxisSize: MainAxisSize.max,
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment.center,
-                                                children: [
-                                                  Icon(
-                                                    Icons.nightlight_round,
-                                                    color: Theme.of(context)
-                                                                .brightness ==
-                                                            Brightness.dark
-                                                        ? FlutterFlowTheme.of(
-                                                                context)
-                                                            .primaryText
-                                                        : FlutterFlowTheme.of(
-                                                                context)
-                                                            .secondaryText,
-                                                    size: 16.0,
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(4.0, 0.0,
-                                                                0.0, 0.0),
-                                                    child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'r9nm620k' /* Dark Mode */,
-                                                      ),
-                                                      style:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                fontFamily:
-                                                                    'Plus Jakarta Sans',
-                                                                color: Theme.of(context)
-                                                                            .brightness ==
-                                                                        Brightness
-                                                                            .dark
-                                                                    ? FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .primaryText
-                                                                    : FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .secondaryText,
-                                                              ),
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                            ),
+                                            ],
                                           ),
                                         ),
-                                      ],
+                                      ),
                                     ),
-                                  ),
+                                  ],
                                 ),
                               ),
                             ),
                           ),
+                        ),
                         Divider(
                           height: 12.0,
                           thickness: 2.0,
@@ -759,14 +743,14 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                     children: [
                                       Text(
                                         FFLocalizations.of(context).getText(
-                                          'azy2y4sf' /* Andrew D. */,
+                                          'xy5ucrzt' /* Andrew D. */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge,
                                       ),
                                       Text(
                                         FFLocalizations.of(context).getText(
-                                          '2q1wtm44' /* admin@gmail.com */,
+                                          'exq0rn6i' /* admin@gmail.com */,
                                         ),
                                         style: FlutterFlowTheme.of(context)
                                             .labelMedium,
@@ -831,7 +815,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                   16.0, 16.0, 0.0, 4.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'uaekwfkl' /* All Tasks */,
+                                  'vnnhc9mz' /* All Tasks */,
                                 ),
                                 style:
                                     FlutterFlowTheme.of(context).headlineMedium,
@@ -842,7 +826,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                 16.0, 0.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
-                                'xa69u3fg' /* Below is a summary of tasks. */,
+                                'bl0ujry6' /* Below is a summary of tasks. */,
                               ),
                               style: FlutterFlowTheme.of(context).labelMedium,
                             ),
@@ -861,19 +845,19 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                     options: [
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        'e99jluq2' /* All */,
+                                        '08ax850m' /* All */,
                                       )),
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        '46l16a7z' /* Pending */,
+                                        'hd6kg6v4' /* Pending */,
                                       )),
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        '99py4491' /* In Progress */,
+                                        'cestk4s2' /* In Progress */,
                                       )),
                                       ChipData(
                                           FFLocalizations.of(context).getText(
-                                        'uyx645gk' /* Completed */,
+                                        'bio2bkoj' /* Completed */,
                                       ))
                                     ],
                                     onChanged: (val) => setState(() =>
@@ -928,7 +912,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             FormFieldController<List<String>>(
                                       [
                                         FFLocalizations.of(context).getText(
-                                          'vchddwiz' /* All */,
+                                          '9xvyxhft' /* All */,
                                         )
                                       ],
                                     ),
@@ -951,7 +935,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                         decoration: InputDecoration(
                                           labelText: FFLocalizations.of(context)
                                               .getText(
-                                            '1gomh6gw' /* Search all tasks... */,
+                                            '5dz4ruil' /* Search all tasks... */,
                                           ),
                                           labelStyle:
                                               FlutterFlowTheme.of(context)
@@ -1048,7 +1032,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             AlignmentDirectional(-1.00, 0.00),
                                         child: Text(
                                           FFLocalizations.of(context).getText(
-                                            'd3josqwm' /* Task Name */,
+                                            'dxydjksk' /* Task Name */,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .labelSmall,
@@ -1066,7 +1050,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   4.0, 0.0, 0.0, 0.0),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'bqi9o0ey' /* Assigned To */,
+                                              'tyvu6f4z' /* Assigned To */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelSmall,
@@ -1085,7 +1069,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                               AlignmentDirectional(-1.00, 0.00),
                                           child: Text(
                                             FFLocalizations.of(context).getText(
-                                              'hbm29x8x' /* Due Date */,
+                                              'ujrl40ri' /* Due Date */,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .labelSmall,
@@ -1108,7 +1092,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                               child: Text(
                                                 FFLocalizations.of(context)
                                                     .getText(
-                                                  'fhom7q0k' /* Status */,
+                                                  'bes38b9p' /* Status */,
                                                 ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -1165,7 +1149,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'td171n2p' /* Product Testing */,
+                                                'c8wvlt9f' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1224,7 +1208,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      '7824smti' /* Randy Rodriguez */,
+                                                      'rab2fd77' /* Randy Rodriguez */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1239,7 +1223,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'fq64be74' /* randy@domainname.com */,
+                                                        'rgoln4gs' /* randy@domainname.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1267,7 +1251,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'qw2u9ata' /* June 5th */,
+                                                '73ff93y2' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1308,7 +1292,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'u8iyvaku' /* In Progress */,
+                                                        '15bquphx' /* In Progress */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1357,7 +1341,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'ffu54j0p' /* Product Testing */,
+                                                '1sq5yqij' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1416,7 +1400,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'lentop9q' /* Emily Rambo */,
+                                                      '25sjhpes' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1431,7 +1415,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'oxkg1oht' /* emily@domain.com */,
+                                                        '212caz5o' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1459,7 +1443,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'c4d6xfia' /* June 5th */,
+                                                'h6zhk3j5' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1500,7 +1484,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '6b2ap0ni' /* Pending */,
+                                                        'ogv8tp6k' /* Pending */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1549,7 +1533,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'txhqx2o4' /* Product Testing */,
+                                                '5oxt0gs6' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1608,7 +1592,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      't7dhqt4h' /* Emily Rambo */,
+                                                      '83q2b98q' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1623,7 +1607,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'n8x1f5t9' /* emily@domain.com */,
+                                                        'ftkpw6hk' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1651,7 +1635,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                '3f10pgq2' /* June 5th */,
+                                                'iei9k8ab' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1692,7 +1676,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'gds7biwq' /* Pending */,
+                                                        'gy7ik845' /* Pending */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1741,7 +1725,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'cx8dmv06' /* Product Testing */,
+                                                '9smhbxsm' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1800,7 +1784,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      'ylb88gnw' /* Emily Rambo */,
+                                                      'zz55uy7i' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1815,7 +1799,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'uo9fkgbt' /* emily@domain.com */,
+                                                        '029as0n0' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1843,7 +1827,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'hrv8y496' /* June 5th */,
+                                                'z9yrhtch' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1884,7 +1868,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        'odjvk0ka' /* In Progress */,
+                                                        'lpdeweku' /* In Progress */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -1933,7 +1917,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'kewve42e' /* Product Testing */,
+                                                'ss6pe2hm' /* Product Testing */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -1992,7 +1976,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                   Text(
                                                     FFLocalizations.of(context)
                                                         .getText(
-                                                      '6ncp1ltw' /* Emily Rambo */,
+                                                      'rjvqlncf' /* Emily Rambo */,
                                                     ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -2007,7 +1991,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '7l6iqgyz' /* emily@domain.com */,
+                                                        'pv8j04gz' /* emily@domain.com */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
@@ -2035,7 +2019,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                             child: Text(
                                               FFLocalizations.of(context)
                                                   .getText(
-                                                'yctpfki3' /* June 5th */,
+                                                '16fahibg' /* June 5th */,
                                               ),
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -2076,7 +2060,7 @@ class _ClientsWidgetState extends State<ClientsWidget> {
                                                       FFLocalizations.of(
                                                               context)
                                                           .getText(
-                                                        '0a2h6mf6' /* Pending */,
+                                                        '41ew62yg' /* Pending */,
                                                       ),
                                                       style:
                                                           FlutterFlowTheme.of(
