@@ -222,7 +222,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                     logFirebaseEvent('WEB_NAV_COMP_bg_color_ON_TAP');
 
                     context.pushNamed(
-                      'Main_Home',
+                      'NewClientsPage',
                       extra: <String, dynamic>{
                         kTransitionInfoKey: TransitionInfo(
                           hasTransition: true,
@@ -257,20 +257,32 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 12.0, 0.0, 0.0, 0.0),
-                            child: Text(
-                              FFLocalizations.of(context).getText(
-                                'tbnb3472' /* Customers */,
+                            child: InkWell(
+                              splashColor: Colors.transparent,
+                              focusColor: Colors.transparent,
+                              hoverColor: Colors.transparent,
+                              highlightColor: Colors.transparent,
+                              onTap: () async {
+                                logFirebaseEvent(
+                                    'WEB_NAV_COMP_Text_i2g5tp07_ON_TAP');
+
+                                context.pushNamed('NewClientsPage');
+                              },
+                              child: Text(
+                                FFLocalizations.of(context).getText(
+                                  'tbnb3472' /* Customers */,
+                                ),
+                                style: FlutterFlowTheme.of(context)
+                                    .labelLarge
+                                    .override(
+                                      fontFamily: 'Plus Jakarta Sans',
+                                      color: widget.selectedNav == 2
+                                          ? FlutterFlowTheme.of(context)
+                                              .primaryText
+                                          : FlutterFlowTheme.of(context)
+                                              .secondaryText,
+                                    ),
                               ),
-                              style: FlutterFlowTheme.of(context)
-                                  .labelLarge
-                                  .override(
-                                    fontFamily: 'Plus Jakarta Sans',
-                                    color: widget.selectedNav == 2
-                                        ? FlutterFlowTheme.of(context)
-                                            .primaryText
-                                        : FlutterFlowTheme.of(context)
-                                            .secondaryText,
-                                  ),
                             ),
                           ),
                         ],

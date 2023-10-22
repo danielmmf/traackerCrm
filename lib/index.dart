@@ -1,7 +1,7 @@
 // Export pages
 export '/pages/auth_pages/auth_login/auth_login_widget.dart'
     show AuthLoginWidget;
-export '/pages/auth_pages/forgot_password/forgot_password_widget.dart'
+export '/pages/forgot_password/forgot_password_widget.dart'
     show ForgotPasswordWidget;
 export '/pages/auth_pages/auth_create/auth_create_widget.dart'
     show AuthCreateWidget;
@@ -24,3 +24,6 @@ export '/pages/messages_details/messages_details_widget.dart'
     show MessagesDetailsWidget;
 export '/land_page/land_page_widget.dart' show LandPageWidget;
 export '/lp_main/lp_main_widget.dart' show LpMainWidget;
+export '/clients/clients_widget.dart' show ClientsWidget;
+export '/pages/main_pages/new_clients_page/new_clients_page_widget.dart'
+    show NewClientsPageWidget;

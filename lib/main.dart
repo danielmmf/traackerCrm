@@ -136,6 +136,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'Main_messages': MainMessagesWidget(),
       'Main_profilePage': MainProfilePageWidget(),
       'LpMain': LpMainWidget(),
+      'NewClientsPage': NewClientsPageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -223,6 +224,20 @@ class _NavBarPageState extends State<NavBarPage> {
               ),
               label: FFLocalizations.of(context).getText(
                 'nl50i4xs' /* Home */,
+              ),
+              tooltip: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.account_circle_outlined,
+                size: 24.0,
+              ),
+              activeIcon: Icon(
+                Icons.account_circle,
+                size: 32.0,
+              ),
+              label: FFLocalizations.of(context).getText(
+                'vgnm8czi' /* __ */,
               ),
               tooltip: '',
             )

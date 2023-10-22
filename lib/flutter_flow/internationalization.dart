@@ -1021,6 +1021,477 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': 'Lar',
     },
   },
+  // Clients
+  {
+    'ffl6p2h1': {
+      'en': 'check.io',
+      'es': '',
+      'pt': '',
+    },
+    't9j8pj84': {
+      'en': 'Platform Navigation',
+      'es': '',
+      'pt': '',
+    },
+    'wnl5t6ui': {
+      'en': 'Dashboard',
+      'es': '',
+      'pt': '',
+    },
+    'jsorgdhe': {
+      'en': 'Chats',
+      'es': '',
+      'pt': '',
+    },
+    'qmfpvmvl': {
+      'en': 'All Tasks',
+      'es': '',
+      'pt': '',
+    },
+    'dx4cduit': {
+      'en': '12',
+      'es': '',
+      'pt': '',
+    },
+    'p0wm2y4k': {
+      'en': 'Projects',
+      'es': '',
+      'pt': '',
+    },
+    '4a45ogxj': {
+      'en': 'Settings',
+      'es': '',
+      'pt': '',
+    },
+    '0j0sz53l': {
+      'en': 'Billing',
+      'es': '',
+      'pt': '',
+    },
+    'zlkyu17e': {
+      'en': 'Explore',
+      'es': '',
+      'pt': '',
+    },
+    'uev4e0dd': {
+      'en': 'Light Mode',
+      'es': '',
+      'pt': '',
+    },
+    'r9nm620k': {
+      'en': 'Dark Mode',
+      'es': '',
+      'pt': '',
+    },
+    'azy2y4sf': {
+      'en': 'Andrew D.',
+      'es': '',
+      'pt': '',
+    },
+    '2q1wtm44': {
+      'en': 'admin@gmail.com',
+      'es': '',
+      'pt': '',
+    },
+    'uaekwfkl': {
+      'en': 'All Tasks',
+      'es': '',
+      'pt': '',
+    },
+    'xa69u3fg': {
+      'en': 'Below is a summary of tasks.',
+      'es': '',
+      'pt': '',
+    },
+    'e99jluq2': {
+      'en': 'All',
+      'es': '',
+      'pt': '',
+    },
+    '46l16a7z': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    '99py4491': {
+      'en': 'In Progress',
+      'es': '',
+      'pt': '',
+    },
+    'uyx645gk': {
+      'en': 'Completed',
+      'es': '',
+      'pt': '',
+    },
+    'vchddwiz': {
+      'en': 'All',
+      'es': '',
+      'pt': '',
+    },
+    '0ugpg8tt': {
+      'en': 'All',
+      'es': '',
+      'pt': '',
+    },
+    '1gomh6gw': {
+      'en': 'Search all tasks...',
+      'es': '',
+      'pt': '',
+    },
+    'd3josqwm': {
+      'en': 'Task Name',
+      'es': '',
+      'pt': '',
+    },
+    'bqi9o0ey': {
+      'en': 'Assigned To',
+      'es': '',
+      'pt': '',
+    },
+    'hbm29x8x': {
+      'en': 'Due Date',
+      'es': '',
+      'pt': '',
+    },
+    'fhom7q0k': {
+      'en': 'Status',
+      'es': '',
+      'pt': '',
+    },
+    'td171n2p': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    '7824smti': {
+      'en': 'Randy Rodriguez',
+      'es': '',
+      'pt': '',
+    },
+    'fq64be74': {
+      'en': 'randy@domainname.com',
+      'es': '',
+      'pt': '',
+    },
+    'qw2u9ata': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    'u8iyvaku': {
+      'en': 'In Progress',
+      'es': '',
+      'pt': '',
+    },
+    'ffu54j0p': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    'lentop9q': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    'oxkg1oht': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    'c4d6xfia': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    '6b2ap0ni': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    'txhqx2o4': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    't7dhqt4h': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    'n8x1f5t9': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    '3f10pgq2': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    'gds7biwq': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    'cx8dmv06': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    'ylb88gnw': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    'uo9fkgbt': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    'hrv8y496': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    'odjvk0ka': {
+      'en': 'In Progress',
+      'es': '',
+      'pt': '',
+    },
+    'kewve42e': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    '6ncp1ltw': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    '7l6iqgyz': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    'yctpfki3': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    '0a2h6mf6': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    '6u530xnm': {
+      'en': 'All Tasks',
+      'es': '',
+      'pt': '',
+    },
+    'mgf16l5z': {
+      'en': 'Home',
+      'es': '',
+      'pt': '',
+    },
+  },
+  // NewClientsPage
+  {
+    'cy43ni0e': {
+      'en': 'All Tasks',
+      'es': '',
+      'pt': '',
+    },
+    'qbtut609': {
+      'en': 'Below is a summary of tasks.',
+      'es': '',
+      'pt': '',
+    },
+    'blv99q3r': {
+      'en': 'All',
+      'es': '',
+      'pt': '',
+    },
+    'swaf6wmx': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    'aslxqiqk': {
+      'en': 'In Progress',
+      'es': '',
+      'pt': '',
+    },
+    'fzy6c8ef': {
+      'en': 'Completed',
+      'es': '',
+      'pt': '',
+    },
+    '6r57k3q7': {
+      'en': 'All',
+      'es': '',
+      'pt': '',
+    },
+    '7mjagnqk': {
+      'en': 'All',
+      'es': '',
+      'pt': '',
+    },
+    'kbcrywdw': {
+      'en': 'Search all tasks...',
+      'es': '',
+      'pt': '',
+    },
+    'oz99834x': {
+      'en': 'Task Name',
+      'es': '',
+      'pt': '',
+    },
+    'yles6vmk': {
+      'en': 'Assigned To',
+      'es': '',
+      'pt': '',
+    },
+    '38awr0mh': {
+      'en': 'Due Date',
+      'es': '',
+      'pt': '',
+    },
+    '1geh9p7s': {
+      'en': 'Status',
+      'es': '',
+      'pt': '',
+    },
+    '7kvtitet': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    '7vrusaje': {
+      'en': 'Randy Rodriguez',
+      'es': '',
+      'pt': '',
+    },
+    'hd7yvlxt': {
+      'en': 'randy@domainname.com',
+      'es': '',
+      'pt': '',
+    },
+    'klut3jbh': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    'ib91lzxq': {
+      'en': 'In Progress',
+      'es': '',
+      'pt': '',
+    },
+    'wfmc19ot': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    'afywtpxe': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    'vw5dxb37': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    'ozbcavoe': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    '4losisno': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    'vb7w7eog': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    '151ou6fk': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    'z96t4xat': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    'xtlh4017': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    'f74fz911': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    'hvb7vyad': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    '429bf1i4': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    'kmaf8c0t': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    'l23xhiuo': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    'sajfcie0': {
+      'en': 'In Progress',
+      'es': '',
+      'pt': '',
+    },
+    '067d7bnr': {
+      'en': 'Product Testing',
+      'es': '',
+      'pt': '',
+    },
+    'o6iiek89': {
+      'en': 'Emily Rambo',
+      'es': '',
+      'pt': '',
+    },
+    'utv4fka1': {
+      'en': 'emily@domain.com',
+      'es': '',
+      'pt': '',
+    },
+    'tt4t1rfk': {
+      'en': 'June 5th',
+      'es': '',
+      'pt': '',
+    },
+    'kfm0j6yg': {
+      'en': 'Pending',
+      'es': '',
+      'pt': '',
+    },
+    'vgnm8czi': {
+      'en': '__',
+      'es': '__',
+      'pt': '__',
+    },
+  },
   // modal_success
   {
     'o4z6h2al': {

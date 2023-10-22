@@ -173,6 +173,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => params.isEmpty
                   ? NavBarPage(initialPage: 'LpMain')
                   : LpMainWidget(),
+            ),
+            FFRoute(
+              name: 'Clients',
+              path: 'clients',
+              builder: (context, params) => ClientsWidget(),
+            ),
+            FFRoute(
+              name: 'NewClientsPage',
+              path: 'newClientsPage',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'NewClientsPage')
+                  : NewClientsPageWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),
