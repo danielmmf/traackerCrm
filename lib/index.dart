@@ -25,5 +25,5 @@ export '/pages/messages_details/messages_details_widget.dart'
 export '/land_page/land_page_widget.dart' show LandPageWidget;
 export '/lp_main/lp_main_widget.dart' show LpMainWidget;
 export '/clients/clients_widget.dart' show ClientsWidget;
-export '/pages/main_pages/new_clients_page/new_clients_page_widget.dart'
+export '/pages/new_clients_page/new_clients_page_widget.dart'
     show NewClientsPageWidget;
