@@ -1492,6 +1492,89 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'pt': '__',
     },
   },
+  // kanban
+  {
+    '3mxn8s5l': {
+      'en': 'Kanban Board',
+      'es': '',
+      'pt': '',
+    },
+    'etavvmz5': {
+      'en': 'To Do',
+      'es': '',
+      'pt': '',
+    },
+    '67225tgc': {
+      'en': 'Task 1',
+      'es': '',
+      'pt': '',
+    },
+    'us6ptj31': {
+      'en': 'Task 2',
+      'es': '',
+      'pt': '',
+    },
+    'xu2t4ts3': {
+      'en': 'In Progress',
+      'es': '',
+      'pt': '',
+    },
+    '737jryf4': {
+      'en': 'Task 3',
+      'es': '',
+      'pt': '',
+    },
+    '6cpi01gw': {
+      'en': 'Task 4',
+      'es': '',
+      'pt': '',
+    },
+    '9yajyn0r': {
+      'en': 'Review',
+      'es': '',
+      'pt': '',
+    },
+    '2737owq7': {
+      'en': 'Task 5',
+      'es': '',
+      'pt': '',
+    },
+    'ruzmxvwr': {
+      'en': 'Task 6',
+      'es': '',
+      'pt': '',
+    },
+    'hpt5gljg': {
+      'en': 'Completed',
+      'es': '',
+      'pt': '',
+    },
+    'gyxi4wu7': {
+      'en': 'Task 7',
+      'es': '',
+      'pt': '',
+    },
+    'ck0ogflp': {
+      'en': 'Task 8',
+      'es': '',
+      'pt': '',
+    },
+    'ngmqkgvu': {
+      'en': 'Archived',
+      'es': '',
+      'pt': '',
+    },
+    '0mi3tjk3': {
+      'en': 'Task 9',
+      'es': '',
+      'pt': '',
+    },
+    '0d5q0ziq': {
+      'en': 'Task 10',
+      'es': '',
+      'pt': '',
+    },
+  },
   // modal_success
   {
     'o4z6h2al': {

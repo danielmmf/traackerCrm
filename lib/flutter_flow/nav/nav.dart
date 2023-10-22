@@ -185,6 +185,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => params.isEmpty
                   ? NavBarPage(initialPage: 'NewClientsPage')
                   : NewClientsPageWidget(),
+            ),
+            FFRoute(
+              name: 'kanban',
+              path: 'kanban',
+              builder: (context, params) => KanbanWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),

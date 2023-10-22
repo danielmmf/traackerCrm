@@ -27,3 +27,4 @@ export '/lp_main/lp_main_widget.dart' show LpMainWidget;
 export '/clients/clients_widget.dart' show ClientsWidget;
 export '/pages/new_clients_page/new_clients_page_widget.dart'
     show NewClientsPageWidget;
+export '/kanban/kanban_widget.dart' show KanbanWidget;
